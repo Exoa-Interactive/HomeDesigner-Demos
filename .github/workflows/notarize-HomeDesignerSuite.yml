@@ -1,0 +1,194 @@
+name: Notarize HomeDesignerSuite
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  notarize:
+    runs-on: macos-latest
+    environment: HomeDesignerSuite
+
+    steps:
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        lfs: true
+
+    - name: Install certificate
+      run: |
+        echo "${{ secrets.MAC_CERTIFICATE }}" | base64 --decode > certificate.p12
+
+        security create-keychain -p actions build.keychain
+        security default-keychain -s build.keychain
+        security unlock-keychain -p actions build.keychain
+
+        security import certificate.p12 \
+          -k build.keychain \
+          -P "${{ secrets.MAC_CERTIFICATE_PWD }}" \
+          -T /usr/bin/codesign
+
+        security set-key-partition-list -S apple-tool:,apple: \
+          -s -k actions build.keychain
+
+    - name: Verify signing identity
+      run: security find-identity -v -p codesigning
+
+    - name: Setup API key
+      run: |
+        mkdir -p private_keys
+        echo "${{ secrets.APPLE_API_KEY }}" > private_keys/AuthKey_${{ secrets.APPLE_KEY_ID }}.p8
+
+    - name: Fix executable permissions
+      run: |
+        # Git on Windows stores all files as 644 — restore +x on Mach-O binaries
+        APP="build/HomeDesignerSuite.app"
+        find "$APP" -type f \( -name "*.dylib" -o -name "*.so" -o -name "*.bundle" \) -exec chmod +x {} \;
+        find "$APP" -type f -path "*/MacOS/*" -exec chmod +x {} \;
+        chmod +x "$APP/Contents/MacOS/Home Designer Suite"
+
+    - name: Create entitlements for hardened runtime
+      run: |
+        cat > entitlements.plist << 'PLIST'
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+          "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+        <dict>
+          <key>com.apple.security.cs.allow-jit</key>
+          <true/>
+          <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+          <true/>
+          <key>com.apple.security.cs.disable-library-validation</key>
+          <true/>
+          <key>com.apple.security.device.audio-input</key>
+          <true/>
+        </dict>
+        </plist>
+        PLIST
+        echo "=== Entitlements ==="
+        cat entitlements.plist
+
+    - name: Codesign app bundle
+      env:
+        SIGN_ID: "Developer ID Application: exoa interactive (${{ secrets.APPLE_TEAM_ID }})"
+      run: |
+        APP="build/HomeDesignerSuite.app"
+
+        # Sign all Mach-O binaries (executables, dylibs, so, and flat-file bundles)
+        find "$APP" -type f \( -name "*.dylib" -o -name "*.so" -o -name "*.bundle" \) -exec \
+          codesign --force --timestamp --options runtime \
+            --entitlements entitlements.plist --sign "$SIGN_ID" {} \;
+
+        find "$APP" -type f -perm +111 -exec \
+          sh -c 'file "$1" | grep -q Mach-O && codesign --force --timestamp --options runtime \
+            --entitlements entitlements.plist --sign "$2" "$1"' _ {} "$SIGN_ID" \;
+
+        # Sign directory bundles and frameworks (deepest first)
+        find "$APP" -depth -type d \( -name "*.bundle" -o -name "*.framework" \) -exec \
+          codesign --force --timestamp --options runtime \
+            --entitlements entitlements.plist --sign "$SIGN_ID" {} \;
+
+        # Sign the main app bundle last
+        codesign --force --timestamp --options runtime \
+          --entitlements entitlements.plist \
+          --sign "$SIGN_ID" "$APP"
+
+    - name: Verify codesign
+      run: |
+        codesign --verify --deep --strict --verbose=2 build/HomeDesignerSuite.app
+
+    - name: Create DMG
+      run: |
+        hdiutil create -volname "HomeDesignerSuite" \
+          -srcfolder build/HomeDesignerSuite.app \
+          -ov -format UDZO \
+          build/HomeDesignerSuite.dmg
+
+    - name: Codesign DMG
+      run: |
+        codesign --force --timestamp \
+          --sign "Developer ID Application: exoa interactive (${{ secrets.APPLE_TEAM_ID }})" \
+          build/HomeDesignerSuite.dmg
+
+    - name: Notarize
+      id: notarize
+      run: |
+        OUTPUT=$(xcrun notarytool submit build/HomeDesignerSuite.dmg \
+          --key private_keys/AuthKey_${{ secrets.APPLE_KEY_ID }}.p8 \
+          --key-id ${{ secrets.APPLE_KEY_ID }} \
+          --issuer ${{ secrets.APPLE_ISSUER_ID }} \
+          --wait 2>&1) || true
+        echo "$OUTPUT"
+        SUBMISSION_ID=$(echo "$OUTPUT" | grep -oE '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}' | head -1)
+        echo "submission_id=$SUBMISSION_ID" >> "$GITHUB_OUTPUT"
+        # Fail the step if notarization didn't succeed
+        echo "$OUTPUT" | grep -q "status: Accepted" || exit 1
+
+    - name: Fetch notarization log
+      if: always() && steps.notarize.outputs.submission_id
+      run: |
+        xcrun notarytool log ${{ steps.notarize.outputs.submission_id }} \
+          --key private_keys/AuthKey_${{ secrets.APPLE_KEY_ID }}.p8 \
+          --key-id ${{ secrets.APPLE_KEY_ID }} \
+          --issuer ${{ secrets.APPLE_ISSUER_ID }} \
+          notarization_log.json || true
+        cat notarization_log.json
+
+    - name: Staple ticket
+      run: |
+        xcrun stapler staple build/HomeDesignerSuite.dmg
+
+    - name: Verify notarization (stapler)
+      run: |
+        xcrun stapler validate build/HomeDesignerSuite.dmg
+
+    - name: Verify Gatekeeper acceptance (spctl)
+      run: |
+        echo "=== Assess DMG with Gatekeeper ==="
+        spctl --assess --type open --context context:primary-signature --verbose=2 build/HomeDesignerSuite.dmg
+
+        echo ""
+        echo "=== Mount DMG and verify app inside ==="
+        hdiutil attach build/HomeDesignerSuite.dmg -nobrowse -mountpoint /tmp/dmg_verify
+
+        echo ""
+        echo "--- codesign --verify on mounted app ---"
+        codesign --verify --deep --strict --verbose=2 /tmp/dmg_verify/HomeDesignerSuite.app
+
+        echo ""
+        echo "--- spctl Gatekeeper assessment on mounted app ---"
+        spctl --assess --verbose=2 /tmp/dmg_verify/HomeDesignerSuite.app
+
+        echo ""
+        echo "--- Check notarization ticket is stapled to app ---"
+        xcrun stapler validate /tmp/dmg_verify/HomeDesignerSuite.app || echo "WARNING: App inside DMG has no stapled ticket (this is normal — the ticket is on the DMG)"
+
+        echo ""
+        echo "--- Signing authority chain ---"
+        codesign -dvv --verbose=4 /tmp/dmg_verify/HomeDesignerSuite.app 2>&1 | grep -E "Authority|TeamIdentifier|Signature"
+
+        hdiutil detach /tmp/dmg_verify
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: HomeDesignerSuite-notarized
+        path: build/HomeDesignerSuite.dmg
+
+    - name: Create GitHub Release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG="HomeDesignerSuite-$(date +%Y%m%d)-run${{ github.run_number }}"
+        gh release create "$TAG" \
+          build/HomeDesignerSuite.dmg \
+          --title "HomeDesignerSuite ($(date +%Y-%m-%d) #${{ github.run_number }})" \
+          --notes "Notarized and stapled DMG for HomeDesignerSuite.
+
+        **Download the .dmg file directly from this release** — do not re-zip or send through email or social media, as this can break the notarization signature.
+
+        Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
