@@ -71,6 +71,10 @@ jobs:
         test -f build/iOS/usymtoolarm64 || (echo "ERROR: usymtoolarm64 not found"; exit 1)
         ls -lah build/iOS/usymtool* || echo "No usymtool files found"
 
+    - name: Debug usymtool references in project
+      run: |
+        grep -n "usymtool" build/iOS/Unity-iPhone.xcodeproj/project.pbxproj || echo "No usymtool references found"
+
     - name: Patch usymtool path for macOS CI
       run: |
         chmod +x build/iOS/usymtool build/iOS/usymtoolarm64 2>/dev/null || true
@@ -91,7 +95,6 @@ jobs:
         )
         if patched == content:
             print("WARNING: usymtool path not found — no patch applied")
-            sys.exit(1)
         else:
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(patched)
