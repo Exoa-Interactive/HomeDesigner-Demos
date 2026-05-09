@@ -46,6 +46,7 @@ jobs:
       run: security find-identity -v -p codesigning
 
     - name: Install iOS provisioning profile
+      id: install_profile
       run: |
         echo "${{ secrets.IOS_PROVISIONING_PROFILE }}" | base64 --decode > ios_profile.mobileprovision
         mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
@@ -53,6 +54,8 @@ jobs:
           $(security cms -D -i ios_profile.mobileprovision))
         cp ios_profile.mobileprovision \
           ~/Library/MobileDevice/Provisioning\ Profiles/"$PROFILE_UUID".mobileprovision
+        echo "profile_uuid=$PROFILE_UUID" >> "$GITHUB_OUTPUT"
+        echo "Installed profile UUID: $PROFILE_UUID"
 
     - name: Setup API key
       run: |
@@ -124,30 +127,33 @@ jobs:
       run: |
         BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" \
           build/iOS/Info.plist)
+        PROFILE_UUID="${{ steps.install_profile.outputs.profile_uuid }}"
         cat > ExportOptions.plist << EOF
-        <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-          "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-        <plist version="1.0">
-        <dict>
-          <key>method</key>
-          <string>app-store</string>
-          <key>teamID</key>
-          <string>${{ secrets.APPLE_TEAM_ID }}</string>
-          <key>uploadBitcode</key>
-          <false/>
-          <key>uploadSymbols</key>
-          <true/>
-          <key>signingStyle</key>
-          <string>manual</string>
-          <key>provisioningProfiles</key>
-          <dict>
-            <key>${BUNDLE_ID}</key>
-            <string>${{ secrets.IOS_PROFILE_NAME }}</string>
-          </dict>
-        </dict>
-        </plist>
-        EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>method</key>
+  <string>app-store-connect</string>
+  <key>teamID</key>
+  <string>${{ secrets.APPLE_TEAM_ID }}</string>
+  <key>uploadBitcode</key>
+  <false/>
+  <key>uploadSymbols</key>
+  <true/>
+  <key>signingStyle</key>
+  <string>manual</string>
+  <key>provisioningProfiles</key>
+  <dict>
+    <key>${BUNDLE_ID}</key>
+    <string>${PROFILE_UUID}</string>
+  </dict>
+</dict>
+</plist>
+EOF
+        echo "Bundle ID: $BUNDLE_ID"
+        echo "Profile UUID: $PROFILE_UUID"
         echo "=== ExportOptions.plist ==="
         cat ExportOptions.plist
 
