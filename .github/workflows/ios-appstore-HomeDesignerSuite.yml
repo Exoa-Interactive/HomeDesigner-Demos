@@ -20,7 +20,7 @@ jobs:
 
     - name: Checkout repo
       run: |
-        git clone --filter=blob:none \
+        GIT_LFS_SKIP_SMUDGE=1 git clone --filter=blob:none \
           https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
         git lfs install
         git lfs pull --include="build/iOS/**"
