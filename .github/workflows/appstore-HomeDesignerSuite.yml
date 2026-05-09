@@ -19,9 +19,11 @@ jobs:
     steps:
 
     - name: Checkout repo
-      uses: actions/checkout@v4
-      with:
-        lfs: true
+      run: |
+        git clone --filter=blob:none \
+          https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
+        git lfs install
+        git lfs pull
 
     - name: Install App Distribution certificate
       run: |
@@ -182,12 +184,6 @@ jobs:
           --type osx \
           --apiKey ${{ secrets.APPLE_KEY_ID }} \
           --apiIssuer ${{ secrets.APPLE_ISSUER_ID }}
-
-    - name: Upload pkg as artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: HomeDesignerSuite-appstore-pkg
-        path: build/HomeDesignerSuite.pkg
 
     - name: Create GitHub Release
       env:

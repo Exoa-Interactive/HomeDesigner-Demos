@@ -14,9 +14,11 @@ jobs:
     steps:
 
     - name: Checkout repo
-      uses: actions/checkout@v4
-      with:
-        lfs: true
+      run: |
+        git clone --filter=blob:none \
+          https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
+        git lfs install
+        git lfs pull
 
     - name: Install certificate
       run: |
@@ -172,12 +174,6 @@ jobs:
         codesign -dvv --verbose=4 /tmp/dmg_verify/HomeDesignerSuite.app 2>&1 | grep -E "Authority|TeamIdentifier|Signature"
 
         hdiutil detach /tmp/dmg_verify
-
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: HomeDesignerSuite-notarized
-        path: build/HomeDesignerSuite.dmg
 
     - name: Create GitHub Release
       env:
