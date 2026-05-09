@@ -1,0 +1,161 @@
+name: iOS App Store Upload HomeDesignerSuite
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_version:
+        description: 'App version (must match App Store Connect)'
+        required: true
+        default: '1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: macos-latest
+    environment: HomeDesignerSuite
+
+    steps:
+
+    - name: Checkout repo
+      run: |
+        git clone --filter=blob:none \
+          https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
+        git lfs install
+        git lfs pull
+
+    - name: Install iOS Distribution certificate
+      run: |
+        echo "${{ secrets.IOS_DISTRIBUTION_CERTIFICATE }}" | base64 --decode > ios_dist_cert.p12
+
+        security create-keychain -p actions build.keychain
+        security default-keychain -s build.keychain
+        security unlock-keychain -p actions build.keychain
+
+        security import ios_dist_cert.p12 \
+          -k build.keychain \
+          -P "${{ secrets.IOS_DISTRIBUTION_CERTIFICATE_PWD }}" \
+          -T /usr/bin/codesign \
+          -T /usr/bin/xcodebuild
+
+        security set-key-partition-list -S apple-tool:,apple: \
+          -s -k actions build.keychain
+
+    - name: Verify signing identities
+      run: security find-identity -v -p codesigning
+
+    - name: Install iOS provisioning profile
+      run: |
+        echo "${{ secrets.IOS_PROVISIONING_PROFILE }}" | base64 --decode > ios_profile.mobileprovision
+        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+        PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" /dev/stdin <<< \
+          $(security cms -D -i ios_profile.mobileprovision))
+        cp ios_profile.mobileprovision \
+          ~/Library/MobileDevice/Provisioning\ Profiles/"$PROFILE_UUID".mobileprovision
+
+    - name: Setup API key
+      run: |
+        mkdir -p private_keys
+        echo "${{ secrets.APPLE_API_KEY }}" > private_keys/AuthKey_${{ secrets.APPLE_KEY_ID }}.p8
+
+    - name: Patch Info.plist version
+      run: |
+        PLIST="build/iOS/Unity-iPhone/Info.plist"
+        /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${{ inputs.app_version }}" "$PLIST"
+        /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST"
+        echo "Set version to ${{ inputs.app_version }} (build ${{ github.run_number }})"
+
+    - name: Build Xcode archive
+      run: |
+        xcodebuild archive \
+          -project build/iOS/Unity-iPhone.xcodeproj \
+          -scheme Unity-iPhone \
+          -configuration Release \
+          -archivePath build/HomeDesignerSuite.xcarchive \
+          -destination "generic/platform=iOS" \
+          CODE_SIGN_STYLE=Manual \
+          DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }} \
+          PROVISIONING_PROFILE_SPECIFIER="${{ secrets.IOS_PROFILE_NAME }}" \
+          CODE_SIGN_IDENTITY="Apple Distribution"
+
+    - name: Create ExportOptions.plist
+      run: |
+        BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" \
+          build/iOS/Unity-iPhone/Info.plist)
+        cat > ExportOptions.plist << EOF
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+          "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+        <dict>
+          <key>method</key>
+          <string>app-store</string>
+          <key>teamID</key>
+          <string>${{ secrets.APPLE_TEAM_ID }}</string>
+          <key>uploadBitcode</key>
+          <false/>
+          <key>uploadSymbols</key>
+          <true/>
+          <key>signingStyle</key>
+          <string>manual</string>
+          <key>provisioningProfiles</key>
+          <dict>
+            <key>${BUNDLE_ID}</key>
+            <string>${{ secrets.IOS_PROFILE_NAME }}</string>
+          </dict>
+        </dict>
+        </plist>
+        EOF
+        echo "=== ExportOptions.plist ==="
+        cat ExportOptions.plist
+
+    - name: Export IPA
+      run: |
+        xcodebuild -exportArchive \
+          -archivePath build/HomeDesignerSuite.xcarchive \
+          -exportPath build/ipa \
+          -exportOptionsPlist ExportOptions.plist
+
+    - name: Locate IPA
+      id: find_ipa
+      run: |
+        IPA_PATH=$(find build/ipa -name "*.ipa" | head -1)
+        echo "Found IPA: $IPA_PATH"
+        echo "ipa_path=$IPA_PATH" >> "$GITHUB_OUTPUT"
+
+    - name: Debug IPA metadata
+      run: |
+        IPA="${{ steps.find_ipa.outputs.ipa_path }}"
+        echo "=== IPA size ==="
+        du -sh "$IPA"
+        echo "=== Embedded Info.plist ==="
+        unzip -p "$IPA" "Payload/*.app/Info.plist" | plutil -p -
+
+    - name: Validate with App Store
+      run: |
+        xcrun altool --validate-app \
+          --file "${{ steps.find_ipa.outputs.ipa_path }}" \
+          --type ios \
+          --apiKey ${{ secrets.APPLE_KEY_ID }} \
+          --apiIssuer ${{ secrets.APPLE_ISSUER_ID }}
+
+    - name: Upload to App Store Connect
+      run: |
+        xcrun altool --upload-app \
+          --file "${{ steps.find_ipa.outputs.ipa_path }}" \
+          --type ios \
+          --apiKey ${{ secrets.APPLE_KEY_ID }} \
+          --apiIssuer ${{ secrets.APPLE_ISSUER_ID }}
+
+    - name: Create GitHub Release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG="HomeDesignerSuite-ios-appstore-$(date +%Y%m%d)-run${{ github.run_number }}"
+        gh release create "$TAG" \
+          "${{ steps.find_ipa.outputs.ipa_path }}" \
+          --title "HomeDesignerSuite iOS App Store IPA ($(date +%Y-%m-%d) #${{ github.run_number }})" \
+          --notes "App Store signed IPA for HomeDesignerSuite iOS.
+
+        Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

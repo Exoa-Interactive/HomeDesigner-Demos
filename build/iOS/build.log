@@ -1,0 +1,504 @@
+
+Building the dependency project GameAssembly...
+ + Preparing output directory...
+ + Pre-parsing project files...
+ + Building libGameAssembly.a for iphoneos (configuration: Release)
+   + Using Unity il2cpp compiler: 6000.3.9f1
+   + Calling the Unity il2cpp compiler to build the game assembly library...
+     PLEASE NOTE: this step MAY take time, and Unity doesn't always display
+     its progress. You can tell it's working by checking your CPU activity.
+     It should display 16 instances of clang.exe associated with il2cpp.exe.
+     ======================= il2cpp output BEGIN =======================
+Starting: D:\UNITY\UNITY - PROJECTS  - UNITY2019\AssetStore_HomeDesigner_Merged\Build\iOS\Il2CppOutputProject\IL2CPP\build\deploy_win64\bee_backend\win-x64\bee_backend.exe --verbose --threads=16 --ipc --dagfile="Il2CppTempDirArtifacts/Release/artifacts/arm64/buildstate/bee.dag" --continue-on-failure --profile="Il2CppTempDirArtifacts/Release/artifacts/arm64/buildstate/backend1.traceevents" FinalProgram
+WorkingDir: D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Build/iOS
+Rebuilding DAG because directory contents changed: Il2CppOutputProject/Source/il2cppOutput
+*** il2cpp requires additional run (0.07 seconds), 0 items updated, 0 evaluated
+ExitCode: 4 Duration: 0s114ms
+Starting: D:\UNITY\UNITY - PROJECTS  - UNITY2019\AssetStore_HomeDesigner_Merged\Build\iOS\Il2CppOutputProject\IL2CPP\build\deploy_win64\bee_backend\win-x64\bee_backend.exe --verbose --threads=16 --ipc --dagfile="Il2CppTempDirArtifacts/Release/artifacts/arm64/buildstate/bee.dag" --continue-on-failure --dagfilejson="Il2CppTempDirArtifacts\Release\artifacts\arm64\buildstate\bee.dag.json" --profile="Il2CppTempDirArtifacts/Release/artifacts/arm64/buildstate/backend2.traceevents" FinalProgram
+WorkingDir: D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Build/iOS
+Finished compiling graph: 583 nodes, 1166 flattened edges (1166 ToBuild, 3 ToUse), maximum node priority 12
+[           0s] Delete 7 artifact files that are no longer in use. (like Il2CppTempDirArtifacts\Release\artifacts\arm64\ey57\ggdhw7q9lawa.o)
+[195/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ekkdbdz00q4k.o
+[196/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7i19q1ndoa4s.o
+[198/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/qgl3nuqdrdt4.o
+[199/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7g5jtlib0req.o
+[200/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/dfhnw1sxry4d.o
+[201/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/np54hj9esnbr.o
+[202/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o2hrqjjx5lxt.o
+[203/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/pw3z2zl1jhqb.o
+[204/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nadpvpd5rnke.o
+[205/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3vzczdul5bbh.o
+[206/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0m6a5afodin0.o
+[207/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/e7akquosftmo.o
+[208/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nkxrbefawh45.o
+[210/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/sd5hoerd2ad5.o
+[211/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9j8vni2p2t6j.o
+[212/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/lpdxpzsh9pmh.o
+[213/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/73gz4zcjmexy.o
+[214/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/edacl18a7qz2.o
+[215/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ykuhbzn11d8i.o
+[216/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/w4n5o4j4slus.o
+[217/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ei9of60aj7c9.o
+[218/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nmc88hvluxgn.o
+[219/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/mk9fey6kf80j.o
+[220/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/w2s5qcd3xokf.o
+[221/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ul44gf28shyc.o
+[222/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ry34eznsxop2.o
+[223/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/q3cunrmscy7f.o
+[224/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/pjz93pkop93q.o
+[225/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7emqwmajf8py.o
+[226/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9an6j7swe3al.o
+[227/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/b3cxpgmilmsd.o
+[228/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/znyw1dkca709.o
+[229/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/11t50qvm8v5m.o
+[230/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ca03yhjulu2o.o
+[231/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/viax5xsfah7q.o
+[232/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7jvz38jqxwlz.o
+[233/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/c6yzk5fjhm3h.o
+[234/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vk7uzsb8mvsz.o
+[235/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/j43c2x9t1c3l.o
+[236/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fmb61hqn95rv.o
+[237/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4bxidktqw07l.o
+[238/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1nqovfpur2gu.o
+[239/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/65hn9e7utucq.o
+[240/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4wewea8xonwl.o
+[241/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1wu1n6evd3zh.o
+[242/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bgwse64vvgws.o
+[243/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/np9x2sy6riql.o
+[244/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4bygi7ke1lzd.o
+[245/582    1s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m1tfib96xuzv.o
+[246/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/aotwtm29vwdn.o
+[247/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6zkxezrj4svm.o
+[248/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/i3tfqiupxwgr.o
+[249/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/cv21b5zb8bk7.o
+[250/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/jq9lcruq27cw.o
+[251/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fulrpwp83vyh.o
+[252/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4n58vlkhbckx.o
+[253/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vsc41e7vzycu.o
+[254/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2wbwj5ro7yyu.o
+[255/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/pfkofibx9ai2.o
+[256/582    1s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/5al7wx4d9ija.o
+[257/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8181h94pms23.o
+[258/582    1s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n9xtuyqp13t0.o
+[259/582    0s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7axy38zlaueu.o
+[260/582    2s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zvftccpgdq5r.o
+[261/582    3s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/s2nx082a5k76.o
+[262/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ig3dx675uta5.o
+[263/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/kw9nf0h3nn42.o
+[264/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tyjo7lovil21.o
+[265/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/z1vx1hwb93ev.o
+[266/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/67798id1vnas.o
+[267/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/800heczqypo6.o
+[268/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7g6zq9s8tr3m.o
+[269/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/xtf37ukrc86m.o
+[270/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/888nxef49nar.o
+[271/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vmq9n3whkkmu.o
+[272/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7s5roghs1041.o
+[273/582   10s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gu5q5jo0tvhs.o
+[274/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vgvnpbo95t2l.o
+[275/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ankp12o8a54y.o
+[276/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bi0z18tyxhxe.o
+[277/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uwagkf9b3lt5.o
+[278/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/toqzzzsdzjcq.o
+[279/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/88mbkqegwv06.o
+[280/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/88f9xyjz4nzq.o
+[281/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v4nui3utfg94.o
+[282/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4rdd6jwd5shw.o
+[283/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9g0pie0x8pg6.o
+[284/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gkriyc9qi4ko.o
+[285/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1zu6dmnolsw7.o
+[286/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ntclip511zn7.o
+[287/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/p7g1ltab8gtf.o
+[289/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uw3dynevbesp.o
+[290/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2d9w2fr4ybco.o
+[291/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/izm88rxcwuvj.o
+[292/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hr2rochesse4.o
+[293/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6scrhmbd4xol.o
+[294/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/wbz3822gp42k.o
+[295/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fncl167i8hl2.o
+[297/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bwvfttojmgr1.o
+[298/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/aobz8d8kieam.o
+[299/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/p87at4tnfqy2.o
+[300/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hxw1sq4v19c5.o
+[301/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/k2hfkm23hlss.o
+[302/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o0nu8odpbohn.o
+[303/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/jnl8b0i4h8b2.o
+[304/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0pnp6087illk.o
+[305/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/676rse38evn4.o
+[306/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/15ogi0a6u9u8.o
+[307/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tacebhju8bn4.o
+[308/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3kk6sfzr8z53.o
+[309/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v95trwxqngxk.o
+[311/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/pzj5visppm4s.o
+[313/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/626uhl03dfff.o
+[314/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/u78wlxtl5t9i.o
+[315/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/y7pmfstqzgae.o
+[316/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0yfexc0l60x9.o
+[317/582   25s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/i5gid6ku5buk.o
+[318/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/s08khutsnqhs.o
+[319/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1q434piz5ahy.o
+[320/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ekzpmr2zm36g.o
+[322/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6im4qihul1ko.o
+[323/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/qna6fjce6ryn.o
+[324/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2md3uliex61p.o
+[325/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ciytuo08fkfk.o
+[326/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/l774ug46ho64.o
+[327/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1viypocc2bf1.o
+[328/582   11s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vs64ke29uzix.o
+[329/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/babp9z0y9gko.o
+[330/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n6ihvo48xxge.o
+[331/582   28s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9r585nfo25xz.o
+[332/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/27gi86pvyp1z.o
+[333/582    8s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/eaczqzoujtv7.o
+[334/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/39qt1hnifzqu.o
+[335/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n8sowfd3s49a.o
+[336/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1k5jwqi7lehc.o
+[337/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2sp0g6y5pgyr.o
+[338/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tu8abqaxg5jo.o
+[339/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6y0pqlz25caa.o
+[340/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/smouqauyc328.o
+[341/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ljx1acl52oyq.o
+[342/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/imd0dptsnvzr.o
+[343/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/03tdv267z0m7.o
+[344/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zv9wanq9vy5r.o
+[345/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/oq95faslslak.o
+[346/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/76k6a1f19erp.o
+[347/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ee3tvdjfl17j.o
+[348/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tlwsz9ej2zhp.o
+[349/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/144hu48hxyzr.o
+[350/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o1uilyjonnyt.o
+[351/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7x8nzkknv9oq.o
+[352/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/85s4j00lzb65.o
+[353/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4mr6pl2fuyvw.o
+[354/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ffe73cxwi78o.o
+[355/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/mi5zjb6psld7.o
+[356/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/laljzvprojwr.o
+[357/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0uhvjmbulvk8.o
+[358/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tyz5f44hidw0.o
+[359/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/e7tqjxgye5r9.o
+[360/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/trq23n20bhgq.o
+[361/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nsun66k5ko7p.o
+[362/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2gdftl9811yn.o
+[363/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zoe49d4advqo.o
+[364/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ndmq4iqutc98.o
+[365/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g40nk6tjah6p.o
+[366/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ugdjkhzn3qdr.o
+[367/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8speks4rw0ks.o
+[368/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fwg7zqdl6epa.o
+[369/582   11s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/lwt7sov77w9x.o
+[370/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2xi2o9bxqoxp.o
+[371/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gavxokh1jy4q.o
+[372/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/909u47kq0217.o
+[373/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/by50dlw3tsim.o
+[374/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1pyl4tvymmga.o
+[375/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/jbmih461vatd.o
+[376/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2crzqx67h0v6.o
+[377/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0gqjdfha58xe.o
+[378/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0gefdpv7fyoj.o
+[379/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/d7db2bf3ddtf.o
+[380/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/s5ead1rirsch.o
+[381/582   10s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3hf2b8mh7pz3.o
+[382/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/z852sz0b16gz.o
+[383/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tdzqxg8gvutw.o
+[384/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/qyfp8hmh2kma.o
+[385/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/wgmuhq8mioiq.o
+[386/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/et2edqmeyi5f.o
+[387/582    9s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/j0tx3dzho19b.o
+[388/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7pbmxrdlo40x.o
+[BUSY       7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/p7bjt9j8gii8.o
+[389/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/sranm205aphw.o
+[390/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vay4xpsojqsd.o
+[391/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/xv68jp27ef7z.o
+[392/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bfu4fan6g5s4.o
+[393/582   11s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ppln2dp0nv44.o
+[394/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/wa3b97s1qwmq.o
+[395/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/iyqg9wnxxmfp.o
+[396/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/31xi2ou4g5b6.o
+[397/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4r8ud05aeu6o.o
+[398/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bvzntye4n8a7.o
+[399/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/xinstn9zuy35.o
+[400/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/oh16hy81jtnp.o
+[401/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/p7bjt9j8gii8.o
+[402/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/h96d5wv376pt.o
+[403/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/anf78iy5j6tr.o
+[405/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3joetkpcasp9.o
+[407/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g1mxkhf5348d.o
+[408/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/a6flpymayslb.o
+[409/582    4s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/668r09hanuou.o
+[410/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vlj947070gxu.o
+[411/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9xv44i6buq4v.o
+[412/582   12s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2u4bpkxikc0d.o
+[413/582    5s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g17ie5ahnzuj.o
+[414/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g7g7ov2mdm7e.o
+[415/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/rw15ziuib74j.o
+[416/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/lkjvitpyw9me.o
+[417/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hf1n9ajlhoou.o
+[418/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/32os9zdhoeht.o
+[419/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/yn7k3pgk5z47.o
+[420/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/oisgp9rer2sc.o
+[421/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/rsmrch2u73ud.o
+[422/582    6s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/kczeyd9zs75y.o
+[423/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hf5wikhtuadh.o
+[424/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/i4kqdbbf73dq.o
+[425/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ttnfajvo6mru.o
+[BUSY      10s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/oy4h1j805557.o
+[BUSY      15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9d85gtmy8thr.o
+[426/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/w9fr1xxsjmr5.o
+[427/582   31s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/iu255xz9saw4.o
+[428/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/oy4h1j805557.o
+[429/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3i1tlau32huo.o
+[430/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v1vahihufkaq.o
+[431/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9d85gtmy8thr.o
+[432/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9ezfo45ag3me.o
+[433/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hvdpllz7vr1p.o
+[434/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zk1n8iw5shit.o
+[435/582   27s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/amsm182wcwy6.o
+[436/582    0s] WriteText Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/libGameAssembly.objectfiles
+[437/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v7pklw4bp18q.o
+[438/582   26s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gnt805i9rpka.o
+[439/582   25s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ozvr8urddfbv.o
+[440/582   25s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nrbbofbf9cuf.o
+[441/582   12s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hw4yswik306c.o
+[442/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/goki8g2lzypx.o
+[443/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v8gus7nowaee.o
+[444/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/atd6cy9qtm2u.o
+[445/582   35s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2ahd1ud5yfd9.o
+[446/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o5p1c9evmw9v.o
+[447/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2b8m85wh6oiw.o
+[448/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9ktpsitspklf.o
+[BUSY      16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9lkzztc5wtq2.o
+[449/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9lkzztc5wtq2.o
+[450/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v973zi703jj1.o
+[451/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/e5xzs9h8pt69.o
+[452/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2czwfhgudynj.o
+[453/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o6gbkky7t5ej.o
+[454/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/u1nnf3q2zh2l.o
+[455/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nywuz4h9p3x3.o
+[456/582   29s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gpbsfsly67uk.o
+[457/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/h3pi4lpekra1.o
+[458/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/u2exmeaf7q78.o
+[459/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vazd7tqdbtoo.o
+[460/582   26s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2it6jv3bnfmk.o
+[461/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9mb964vh42vp.o
+[462/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8ersmpfj00ea.o
+[463/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1b0z6q6pqmas.o
+[464/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vgtnb8dvkanp.o
+[465/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2jkgr6mouor7.o
+[466/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nzn46f1lxc3q.o
+[467/582   34s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tpubd03an5uq.o
+[468/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gwwbrhssnyy8.o
+[469/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/u886qsxwg859.o
+[470/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8fi2t0yv79jx.o
+[471/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n0eeerky4l8d.o
+[472/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gxnlysb5u73v.o
+[473/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2kbqyh601xwu.o
+[474/582   93s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/wcelm5fjwm8i.o
+[475/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1cr9d2p2xvff.o
+[476/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fp34ddv6q5mg.o
+[477/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/u9zgy3g9nhbx.o
+[478/582   31s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/shavskncj3db.o
+[479/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9twsiu2bltzd.o
+[480/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n68ni57fe36e.o
+[481/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8lccyemdhriy.o
+[482/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fqueloejyes3.o
+[483/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gyev53uh2g9i.o
+[484/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1dijld9e54k2.o
+[485/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1jctprwwemj3.o
+[486/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uarq5e0lvqgk.o
+[487/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9un2p5los240.o
+[488/582   30s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7166cb9egf2r.o
+[489/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g4849hizby7j.o
+[490/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/mzfh50auhavm.o
+[491/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8m3l5p5po0nl.o
+[492/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ubi0cqjy2zl7.o
+[493/582   25s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n7zxpgrslcc2.o
+[494/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8nuvc1o2v9s8.o
+[495/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/t3xjsa3zyx4r.o
+[496/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n8q7wra5slhp.o
+[497/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m06qccu6oj09.o
+[498/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1k32w2f9lvoq.o
+[499/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0cjmcnzait7a.o
+[500/582   28s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6tmqsvsgcdlc.o
+[501/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fxfywdldf5vr.o
+[502/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uhcah46fchk8.o
+[503/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/t9rtwoqh8e3s.o
+[504/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m1x0jndjws5w.o
+[505/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7g1ozwrgzghg.o
+[506/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1luc4dzlt4td.o
+[507/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ui3jofqsjqpv.o
+[508/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0dawjyinp2cy.o
+[509/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/taj33z9tfo8f.o
+[510/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8uffoqvwc0ww.o
+[511/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7mvy3afy8xfh.o
+[512/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m7rao100593x.o
+[513/582   27s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/lej2cmej9o9s.o
+[514/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0e15q91zwbil.o
+[515/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fzxhb0n2tn61.o
+[516/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/erd1qk73plpm.o
+[517/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tbadbbt6mxd3.o
+[518/582   31s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fy673o4pme1e.o
+[519/582   12s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v09sgyccjmkr.o
+[520/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8v6ov1e9j91j.o
+[521/582   30s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hxv8z71waac0.o
+[522/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m8ikvckddj9k.o
+[523/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7nm8amyag7k4.o
+[524/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9cmog9hgcwrs.o
+[525/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uspcwiwdfk3b.o
+[526/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1sfwf35favx1.o
+[527/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8417vt1h8tad.o
+[528/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0kvfvnph6sgm.o
+[529/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/of3vl7y9co7a.o
+[530/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/f5rrfebk3442.o
+[531/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3zz75xkca0vr.o
+[532/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/npyjgknk55yt.o
+[533/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zqvxcxjn2ygu.o
+[534/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4vijiinmotvl.o
+[535/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ikwjqo6e7bk8.o
+[536/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ww8eqzbj0lr9.o
+[537/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bh5qaqxlxxfq.o
+[538/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hcc358pg392s.o
+[539/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/a9kaqahntvya.o
+[540/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2z2jiq96694t.o
+[541/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1ri3xat827ne.o
+[542/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/93km5z1coxez.o
+[543/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gcffi1eb0jcv.o
+[544/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8v05kklekvxj.o
+[545/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ujoal9farlqi.o
+[546/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ngxh5a7gh7l0.o
+[547/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m8c1kvqid54k.o
+[548/582   22s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1s9c5lclaht1.o
+[549/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gd6opcyn7shi.o
+[550/582   23s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/upikpn3r02oj.o
+[551/582   20s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/99ew9dpuxed0.o
+[552/582   18s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m93as69ukea8.o
+[553/582   28s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/f5l84whp3q02.o
+[554/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tipdcj6539cr.o
+[555/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1t0mcxvxhqyo.o
+[556/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/pthma12pq7mr.o
+[557/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uq9twym47bu6.o
+[558/582   12s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/6mt7xl6cua7z.o
+[559/582   27s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gexywnh0e2m5.o
+[560/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/82lpw9r80l17.o
+[561/582   30s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nhorcmqtogrn.o
+[562/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/mfykwkxcuv88.o
+[563/582   21s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nni1g0dbyxpo.o
+[565/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m1y215crldhm.o
+[566/582   31s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/f6cic801a05p.o
+[567/582   12s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/rh0tn92h6bw2.o
+[568/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/olx5plmrm55b.o
+[569/582   24s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/byqlmca3cgtk.o
+[570/582   17s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fidzjlth2y7m.o
+[571/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/q9fd3tmj29en.o
+[572/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1lvemwytip52.o
+[573/582    7s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/5en28ndejxok.o
+[574/582   19s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g6rq6mkwf1tj.o
+[575/582   15s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/5tcpnk8lzl33.o
+[576/582   13s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ff8j2du5i4ru.o
+[577/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ba0eg21q031j.o
+[578/582   16s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ke907auowxrk.o
+[579/582   14s] C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m3ouin744tnm.o
+[580/582    2s] Lib_iOS_arm64_11.0 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/libGameAssembly.a
+"C:/Darwin/builder/Toolchain/usr/bin/libtool.exe" -arch_only arm64 -static -filelist "Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/libGameAssembly.objectfiles" -o "Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/libGameAssembly.a"
+[581/582    1s] CopyFiles D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Build/iOS/build/Release-iphoneos/GameAssembly/libGameAssembly.a
+*** il2cpp build success (350.91 seconds - 0:05:50), 377 items updated, 582 evaluated
+ExitCode: 0 Duration: 5m:50s
+Success: 
+
+
+
+     ======================== il2cpp output END ========================
+ + Creating universal library (arm64)...
+ + Done.
+
+Build time: 363 seconds (0 h 6 min 3 s)
+Output directory: build\Release-iphoneos\GameAssembly\GameAssembly.lib
+
+Building the dependency project UnityFramework...
+ + Preparing output directory...
+ + Pre-parsing project files...
+ + Building UnityFramework for iphoneos (configuration: Release)
+   + [arm64] Libraries\com.unity.inputsystem\InputSystem\Plugins\iOS\iOSStepCounter.mm.obj is up to date
+   + [arm64] Classes\Unity\InternalProfiler.cpp.obj is up to date
+   + [arm64] Classes\UI\StoreReview.m.obj is up to date
+   + [arm64] Classes\CrashReporter.mm.obj is up to date
+   + [arm64] Classes\iPhone_Sensors.mm.obj is up to date
+   + [arm64] Recompiling Classes\main.mm (source changed)...
+   + [arm64] Classes\UnityAppController+Rendering+visionOS.mm.obj is up to date
+   + [arm64] Classes\UnityAppController+Rendering.mm.obj is up to date
+   + [arm64] Classes\UnityAppController+UnityInterface.mm.obj is up to date
+   + [arm64] Classes\UnityAppController.mm.obj is up to date
+   + [arm64] Classes\PluginBase\AppDelegateListener.mm.obj is up to date
+   + [arm64] Classes\PluginBase\LifeCycleListener.mm.obj is up to date
+   + [arm64] Classes\PluginBase\RenderPluginDelegate.mm.obj is up to date
+   + [arm64] Classes\PluginBase\UnityViewControllerListener.mm.obj is up to date
+   + [arm64] Classes\UI\ActivityIndicator.mm.obj is up to date
+   + [arm64] Recompiling Classes\UI\Keyboard.mm (source changed)...
+   + [arm64] Classes\UI\OrientationSupport.mm.obj is up to date
+   + [arm64] Classes\UI\UnityAppController+ViewHandling.mm.obj is up to date
+   + [arm64] Classes\UI\UnityScene.mm.obj is up to date
+   + [arm64] Classes\UI\UnityView+iOS.mm.obj is up to date
+   + [arm64] Classes\UI\UnityView+Keyboard.mm.obj is up to date
+   + [arm64] Classes\UI\UnityView+tvOS.mm.obj is up to date
+   + [arm64] Classes\UI\UnityView.mm.obj is up to date
+   + [arm64] Classes\UI\UnityViewControllerBase+iOS.mm.obj is up to date
+   + [arm64] Classes\UI\UnityViewControllerBase+tvOS.mm.obj is up to date
+   + [arm64] Classes\UI\UnityViewControllerBase+visionOS.mm.obj is up to date
+   + [arm64] Classes\UI\UnityViewControllerBase.mm.obj is up to date
+   + [arm64] Classes\Unity\AVCapture.mm.obj is up to date
+   + [arm64] Classes\Unity\CameraCapture.mm.obj is up to date
+   + [arm64] Classes\Unity\CMVideoSampling.mm.obj is up to date
+   + [arm64] Classes\Unity\CVTextureCache.mm.obj is up to date
+   + [arm64] Classes\Unity\DeviceSettings.mm.obj is up to date
+   + [arm64] Classes\Unity\DisplayManager.mm.obj is up to date
+   + [arm64] Classes\Unity\Filesystem.mm.obj is up to date
+   + [arm64] Classes\Unity\FullScreenVideoPlayer.mm.obj is up to date
+   + [arm64] Classes\Unity\MetalHelper.mm.obj is up to date
+   + [arm64] Classes\Unity\NoGraphicsHelper.mm.obj is up to date
+   + [arm64] Classes\Unity\OnDemandResources.mm.obj is up to date
+   + [arm64] Classes\Unity\UnityReplayKit.mm.obj is up to date
+   + [arm64] Classes\Unity\UnityReplayKit_Scripting.mm.obj is up to date
+   + [arm64] Classes\Unity\UnityWebRequest.mm.obj is up to date
+   + [arm64] Classes\Unity\VideoPlayer.mm.obj is up to date
+   + [arm64] Libraries\Il2CppOptions.cpp.obj is up to date
+   + [arm64] Libraries\RegisterFeatures.cpp.obj is up to date
+   + [arm64] Including Libraries\libiPhone-lib.a...
+   + [arm64] Including .\libGameAssembly.a...
+   + [arm64] Including Libraries\baselib.a...
+   + [arm64] Relinking UnityFramework (input files were rebuilt)...
+ + Creating universal framework (arm64)...
+ + Stripping bitcode to reduce binary size...
+ + Creating UnityFramework framework module map with umbrella header: UnityFramework.h
+ + Creating Info.plist...
+ + Done.
+
+Build time: 23 seconds (0 h 0 min 23 s)
+Output directory: build\Release-iphoneos\UnityFramework\UnityFramework.framework
+
+ + Preparing output directory...
+ + Pre-parsing project files...
+ + Building HomeDesignerSuite for iphoneos (configuration: Release)
+   + [arm64] MainApp\main.mm.obj is up to date
+   + [arm64] D:\SDK\iospb3.74\Toolchain\extra\rdc.m.obj is up to date
+   + [arm64] Relinking HomeDesignerSuite (target-specific flags changed)...
+ + Creating universal binary (arm64)...
+ + Stripping bitcode to reduce binary size...
+ + Copying resources...
+ + Creating Info.plist...
+cartool: notice: while compiling 'Images.xcassets/AppIcon.appiconset': in facet 'AppIcon': in rendition 'Icon-iPhone-180.png': missing iphone 2x (90x90) image variant, falling back on best resolution icon.
+ + Compiling Interface Builder launch storyboards...
+   + [iphone] build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app\LaunchScreen-iPhone.storyboardc
+   + [ipod] build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app\LaunchScreen-iPhone.storyboardc
+   + [ipad] build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app\LaunchScreen-iPad.storyboardc
+   + [all] build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app\LaunchScreen-iPhone.storyboardc
+ + Optimizing PNG files in build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app...
+ + Embedding framework: UnityFramework.framework...
+ + Embedding framework: UnityFramework.framework...
+ + Validating dependencies...
+ + Embedding provisioning profile...
+ + Signing code as Apple Distribution: exoa interactive (23FCR5WFJW) with team ID 23FCR5WFJW...
+ + Building iOS packages...
+ + Done.
+
+Build time: 30 seconds (0 h 0 min 30 s)
+Output directory: build\Release-iphoneos\Unity-iPhone\HomeDesignerSuite.app
+IPA package:     Packages\HomeDesignerSuite.ipa

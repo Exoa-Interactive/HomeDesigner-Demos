@@ -1,0 +1,185 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1778291843289289, "dur":59, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843289393, "dur":3689, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843293099, "dur":10150, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843303338, "dur":122, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1778291843303463, "dur":823, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843305229, "dur":200, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/82lpw9r80l17.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843305669, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/m93as69ukea8.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843305830, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/upikpn3r02oj.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843305971, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1s9c5lclaht1.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843306194, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/93km5z1coxez.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843306391, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2z2jiq96694t.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843306539, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/hcc358pg392s.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843306783, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/zqvxcxjn2ygu.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843306914, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/npyjgknk55yt.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843307256, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7nm8amyag7k4.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843307430, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fzxhb0n2tn61.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843307680, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/taj33z9tfo8f.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843307788, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fy673o4pme1e.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843307980, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/7g1ozwrgzghg.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843308119, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/uhcah46fchk8.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843308259, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1k32w2f9lvoq.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843308579, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1jctprwwemj3.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843308893, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gyev53uh2g9i.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309159, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/fp34ddv6q5mg.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309335, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2kbqyh601xwu.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309467, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/shavskncj3db.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309587, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gwwbrhssnyy8.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309885, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/vazd7tqdbtoo.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843309979, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/h3pi4lpekra1.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843310065, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/nywuz4h9p3x3.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843310285, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gpbsfsly67uk.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843310489, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9ktpsitspklf.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843310679, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2b8m85wh6oiw.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843310889, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/gnt805i9rpka.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843311220, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/w9fr1xxsjmr5.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843311429, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/g17ie5ahnzuj.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843311642, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/iu255xz9saw4.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843311769, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/i4kqdbbf73dq.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843311866, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2u4bpkxikc0d.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843312264, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ppln2dp0nv44.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843312447, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/xinstn9zuy35.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843312681, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/0gefdpv7fyoj.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843313053, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/lwt7sov77w9x.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843313254, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8speks4rw0ks.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843314136, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/39qt1hnifzqu.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843314508, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/eaczqzoujtv7.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843314761, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/l774ug46ho64.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843314937, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/n8sowfd3s49a.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843315288, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/2md3uliex61p.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843315427, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/tacebhju8bn4.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843315799, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/676rse38evn4.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316014, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/i5gid6ku5buk.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316129, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o0nu8odpbohn.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316259, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/bwvfttojmgr1.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316453, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/4rdd6jwd5shw.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316560, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/ankp12o8a54y.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316797, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/v4nui3utfg94.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843316887, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1zu6dmnolsw7.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843317033, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/toqzzzsdzjcq.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843317436, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/8181h94pms23.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843317711, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/jq9lcruq27cw.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843318406, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/1nqovfpur2gu.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843318914, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/11t50qvm8v5m.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843319125, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9an6j7swe3al.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843319228, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/65hn9e7utucq.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843319342, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/prb79t0fjj72.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843319598, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/9j8vni2p2t6j.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843319949, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/e7akquosftmo.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843320105, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/3vzczdul5bbh.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843320246, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/ey57/o2hrqjjx5lxt.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843320748, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Il2CppTempDirArtifacts/Release/artifacts/arm64/4go9/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":0, "ts":1778291843320991, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/4go9/rdmgqmspkhy4.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321125, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/4go9/06nsjliabzk2.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321375, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321462, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/ss2j8xu5o4di.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321551, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/siongie9wra10.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321806, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/qacwigotfm1u0.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843321911, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/0aekbxb2zjfs0.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843322197, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/qf84p62n03ak.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843322290, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/tyinre1rwjre.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843322600, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/2yomm8qioepu.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843322965, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/vgfp3v5snfat.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843323397, "dur":114, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/32uq0unoeaef.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843323538, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/ibk5ssx2tx0e.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843323648, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/u1hdinae4bcj0.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843323973, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/7js69b8htoaq1.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843324135, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/7js69b8htoaq2.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843324222, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/qj8krzmj0jfe.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843324433, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/le6v79leudl50.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843324862, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/fu39tpp3peln.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843324992, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/8mpykklow6tj1.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325102, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/8mpykklow6tj2.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325481, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/4q2a78vsgya13.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325568, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/az3j8h67zepx.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325648, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/die29p4bwu5r.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325749, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/wt5cg44gtori.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843325846, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/gu8pryouw3063.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843326072, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/yx83tzbx740a.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843326209, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/t4qfyfpeh2p41.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843326938, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MakeLump Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/3qch8qie89hs5.lump.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1778291843327219, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/hfhybxgvjnhg.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843327475, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/s0ttctw3zp1a.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843327663, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/ax8cwrrfsazx.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843327840, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_iOS_arm64 Il2CppTempDirArtifacts/Release/artifacts/arm64/jzjk/tdq3uesej284.o" }}
+,{ "pid":12345, "tid":0, "ts":1778291843304319, "dur":23915, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843328247, "dur":16689, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843344938, "dur":481, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843345420, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843345484, "dur":73, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843345775, "dur":11479, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1778291843304621, "dur":23706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1778291843328328, "dur":16868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1778291843304867, "dur":23528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1778291843328396, "dur":16710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778291843304602, "dur":23699, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1778291843328302, "dur":16875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778291843304530, "dur":23755, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778291843328291, "dur":979, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1778291843329271, "dur":15670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778291843304451, "dur":23818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1778291843332761, "dur":576, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Darwin/TEMP/il2cppOutput/data" }}
+,{ "pid":12345, "tid":5, "ts":1778291843333337, "dur":1113, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Build/iOS/Il2CppOutputProject/IL2CPP/build/deploy_win64" }}
+,{ "pid":12345, "tid":5, "ts":1778291843334451, "dur":690, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Build/iOS/Il2CppOutputProject/IL2CPP/build/deploy_win64" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335142, "dur":69, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335211, "dur":65, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335276, "dur":52, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335328, "dur":51, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335430, "dur":51, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335481, "dur":55, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335536, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335594, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335644, "dur":62, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/external/zlib" }}
+,{ "pid":12345, "tid":5, "ts":1778291843335706, "dur":4920, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp" }}
+,{ "pid":12345, "tid":5, "ts":1778291843340929, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843340988, "dur":63, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341051, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341106, "dur":52, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341159, "dur":52, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341211, "dur":52, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341263, "dur":52, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341315, "dur":61, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/common" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341376, "dur":55, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341431, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341485, "dur":51, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341536, "dur":51, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341587, "dur":51, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341638, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341688, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341739, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/dec" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341794, "dur":154, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843341948, "dur":158, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342107, "dur":135, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342242, "dur":140, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342382, "dur":141, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342523, "dur":142, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342666, "dur":148, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843342814, "dur":199, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":5, "ts":1778291843343013, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/include" }}
+,{ "pid":12345, "tid":5, "ts":1778291843343618, "dur":1211, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Il2CppOutputProject/Source/il2cppOutput" }}
+,{ "pid":12345, "tid":5, "ts":1778291843328276, "dur":16644, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778291843304687, "dur":23656, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1778291843328343, "dur":16806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778291843304751, "dur":23607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1778291843328359, "dur":16801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778291843304809, "dur":23566, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1778291843328377, "dur":16710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778291843304914, "dur":23498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1778291843328412, "dur":16713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778291843305053, "dur":23386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1778291843328439, "dur":16613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778291843304991, "dur":23434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1778291843328426, "dur":16564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1778291843305123, "dur":23330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1778291843328454, "dur":16587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1778291843305165, "dur":23305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1778291843328470, "dur":16505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1778291843305235, "dur":23250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1778291843328485, "dur":16522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1778291843305372, "dur":23128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1778291843328500, "dur":16566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1778291843305461, "dur":23053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1778291843328514, "dur":16444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1778291843359421, "dur":804, "ph":"X", "name": "ProfilerWriteOutput" }
+,

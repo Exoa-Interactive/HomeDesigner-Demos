@@ -1,0 +1,4370 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct IComparer_1_tF05F0A1CBE0A4A713B619B74742FAA1C0DBA80CB;
+struct List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248;
+struct List_1_tA83B1A3B3FF4EACED2D2CC849DC31E5AC239E0D2;
+struct List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E;
+struct List_1_tEE826735E783D159E78423CA05EDB5A468147FED;
+struct List_1_tF6A2849F54515B6D30ED5F60B02B919FDA420E8D;
+struct List_1_t529B50FC9A2FF7C13B55EA9BAE077B66F2185D48;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t273332300B667FA8C97C884790967AC76160CF76;
+struct List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8;
+struct List_1U5BU5D_tF248F72C96947B6B340DB7895808F024734AC7B2;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140;
+struct IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PolyNodeU5BU5D_tA37A5D5F0C1EF9CE560C8E9B5CC3E68373F76DB1;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12;
+struct ClipperBase_tEBECF248A132391100C2D948551E8815AB623472;
+struct ClipperException_tFCB5B9EE82296BD4BB84054752206E964DAD5B9B;
+struct ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388;
+struct Exception_t;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct LocalMinima_t48FD9408D61FD183AB8827237164C97C4F492E5B;
+struct Maxima_t48B1623FE19E9CBAED18042268DB2D0A8E8DC97E;
+struct PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B;
+struct PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct Scanbeam_tC4A4A4B5547D89406632DCAB943B066DCAE896C8;
+struct String_t;
+struct TEdge_t0F8BFF51458B6180E599A92AA50910D9C63ED364;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+IL2CPP_EXTERN_C RuntimeClass* Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mA48E95C7C906A65CABDCCA6E12CD2D5402B4C50A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mCBBB2B96D639FAD1F3C3C1F3E3F3CB504CFF4882_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m319E9244A5A725EF2DCCF877F0205B4525C2D6FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mB0F90F79A544C6C8337E5906584E3B1F973E52EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mEC302AADC1A01151036E76A74C6CD38D68820248_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m630686780BDA3FD196DAC1BD1EC4E94B1A1F2911_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_mB4B6F6E95CBD6E2FD479C5CB5BF5E84EB540017A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m83BB8D85DA90BCBFF5C083D5FC45C4F316098BCC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF201A0BE94F07BE57EAA6E40E55A96AAA44BB52C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Capacity_m87127FC9DC27F00F3D414D6DCB5AD407BC0C61C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mD30E503740C525041CD379AE19F23A5D8BA9E910_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140;
+struct IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248  : public RuntimeObject
+{
+	List_1U5BU5D_tF248F72C96947B6B340DB7895808F024734AC7B2* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E  : public RuntimeObject
+{
+	DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tEE826735E783D159E78423CA05EDB5A468147FED  : public RuntimeObject
+{
+	IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8  : public RuntimeObject
+{
+	PolyNodeU5BU5D_tA37A5D5F0C1EF9CE560C8E9B5CC3E68373F76DB1* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tCC7BE7E54BF040CF0223D08AD268CE9AF725CCB9  : public RuntimeObject
+{
+};
+struct ClipperBase_tEBECF248A132391100C2D948551E8815AB623472  : public RuntimeObject
+{
+	LocalMinima_t48FD9408D61FD183AB8827237164C97C4F492E5B* ___m_MinimaList;
+	LocalMinima_t48FD9408D61FD183AB8827237164C97C4F492E5B* ___m_CurrentLM;
+	List_1_tA83B1A3B3FF4EACED2D2CC849DC31E5AC239E0D2* ___m_edges;
+	Scanbeam_tC4A4A4B5547D89406632DCAB943B066DCAE896C8* ___m_Scanbeam;
+	List_1_t273332300B667FA8C97C884790967AC76160CF76* ___m_PolyOuts;
+	TEdge_t0F8BFF51458B6180E599A92AA50910D9C63ED364* ___m_ActiveEdges;
+	bool ___m_UseFullRange;
+	bool ___m_HasOpenPaths;
+	bool ___U3CPreserveCollinearU3Ek__BackingField;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991 
+{
+	List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B 
+{
+	double ___X;
+	double ___Y;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 
+{
+	int64_t ___X;
+	int64_t ___Y;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 
+{
+	int64_t ___left;
+	int64_t ___top;
+	int64_t ___right;
+	int64_t ___bottom;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D80_t84BF112B3A60D520F54C28177420071C367EDDEE 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D80_t84BF112B3A60D520F54C28177420071C367EDDEE__padding[80];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D818_t7CE6DB35947233D71C8BBB637ADACA92D5D48F80 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D818_t7CE6DB35947233D71C8BBB637ADACA92D5D48F80__padding[818];
+	};
+};
+#pragma pack(pop, tp)
+struct ClipType_t1A8C3AEDF66D0958F9AD832D71BF85D1A2FCC6EF 
+{
+	int32_t ___value__;
+};
+struct ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388  : public RuntimeObject
+{
+	List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ___m_destPolys;
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___m_srcPoly;
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___m_destPoly;
+	List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* ___m_normals;
+	double ___m_delta;
+	double ___m_sinA;
+	double ___m_sin;
+	double ___m_cos;
+	double ___m_miterLim;
+	double ___m_StepsPerRad;
+	IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___m_lowest;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* ___m_polyNodes;
+	double ___U3CArcToleranceU3Ek__BackingField;
+	double ___U3CMiterLimitU3Ek__BackingField;
+};
+struct EndType_t201180948CBD56D3422793613DA00C874130C902 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct JoinType_t8952F113BDB74BF8CED18843F8E80D939AF45118 
+{
+	int32_t ___value__;
+};
+struct PolyFillType_tA88B6DD11C6BB815F88A77C7AD911C7A82778C70 
+{
+	int32_t ___value__;
+};
+struct PolyType_t0BCBFC2A7EBF65B0C89F42E56CBBEBFEA2C815B1 
+{
+	int32_t ___value__;
+};
+struct NodeType_tE2A79AAB778A35EC8061D9C5FDAC712D94F23692 
+{
+	int32_t ___value__;
+};
+struct Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12  : public ClipperBase_tEBECF248A132391100C2D948551E8815AB623472
+{
+	int32_t ___m_ClipType;
+	Maxima_t48B1623FE19E9CBAED18042268DB2D0A8E8DC97E* ___m_Maxima;
+	TEdge_t0F8BFF51458B6180E599A92AA50910D9C63ED364* ___m_SortedEdges;
+	List_1_tF6A2849F54515B6D30ED5F60B02B919FDA420E8D* ___m_IntersectList;
+	RuntimeObject* ___m_IntersectNodeComparer;
+	bool ___m_ExecuteLocked;
+	int32_t ___m_ClipFillType;
+	int32_t ___m_SubjFillType;
+	List_1_t529B50FC9A2FF7C13B55EA9BAE077B66F2185D48* ___m_Joins;
+	List_1_t529B50FC9A2FF7C13B55EA9BAE077B66F2185D48* ___m_GhostJoins;
+	bool ___m_UsingPolyTree;
+	bool ___U3CReverseSolutionU3Ek__BackingField;
+	bool ___U3CStrictlySimpleU3Ek__BackingField;
+};
+struct ClipperException_tFCB5B9EE82296BD4BB84054752206E964DAD5B9B  : public Exception_t
+{
+};
+struct PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B  : public RuntimeObject
+{
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* ___m_Parent;
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___m_polygon;
+	int32_t ___m_Index;
+	int32_t ___m_jointype;
+	int32_t ___m_endtype;
+	List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* ___m_Childs;
+	bool ___U3CIsOpenU3Ek__BackingField;
+};
+struct PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B  : public PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B
+{
+	List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* ___m_AllPolys;
+};
+struct List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248_StaticFields
+{
+	List_1U5BU5D_tF248F72C96947B6B340DB7895808F024734AC7B2* ___s_emptyArray;
+};
+struct List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E_StaticFields
+{
+	DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* ___s_emptyArray;
+};
+struct List_1_tEE826735E783D159E78423CA05EDB5A468147FED_StaticFields
+{
+	IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8_StaticFields
+{
+	PolyNodeU5BU5D_tA37A5D5F0C1EF9CE560C8E9B5CC3E68373F76DB1* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tCC7BE7E54BF040CF0223D08AD268CE9AF725CCB9_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D818_t7CE6DB35947233D71C8BBB637ADACA92D5D48F80 ___265D4721CC325B4A536F3380B1D1ECCE24F0CC06C9636EA55646B045BE12993A;
+	__StaticArrayInitTypeSizeU3D80_t84BF112B3A60D520F54C28177420071C367EDDEE ___74FF53862B543D1C9725B90332EE457B1807058FA28EAFD2AAEA35521A4551AA;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 m_Items[1];
+
+	inline IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B m_Items[1];
+
+	inline DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1_gshared (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_gshared_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_gshared_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Capacity_mD826E33A9E5EBC19C714653217071790693E0B95_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_gshared_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED_gshared (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_gshared_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_gshared (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_gshared (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_index, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mE82572317B6F1C3B08904EBF1AFF00E0E1A0276D_gshared (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mAB22A911FE4CFD8AD552F49E073F36746923A46B_gshared (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_item, const RuntimeMethod* method) ;
+
+inline void List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1 (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, const RuntimeMethod*))List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyNode__ctor_m080C12C27BF4EFA2ED81D6DEC9968CE7193F0316 (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClipperOffset_set_MiterLimit_m35C3021CA93C38691B25EBFA20D051619261556F_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClipperOffset_set_ArcTolerance_m2FA01119E9EE717A92431556902E36C0EC9ECC57_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* __this, const RuntimeMethod* method) ;
+inline void List_1_Clear_mEC302AADC1A01151036E76A74C6CD38D68820248_inline (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, const RuntimeMethod*))List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_gshared_inline)(__this, method);
+}
+inline IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26 (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, int32_t, const RuntimeMethod*))List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPoint_op_Equality_mE036B6134A01D35F14D76D99D82AEC970CD71F76 (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_a, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___1_b, const RuntimeMethod* method) ;
+inline void List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, int32_t, const RuntimeMethod*))List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC_gshared)(__this, ___0_value, method);
+}
+inline void List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5, const RuntimeMethod*))List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPoint_op_Inequality_mD1C8591434E3CC23D6E08207E98B8E1B03B77039 (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_a, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyNode_AddChild_mC381C121A4713852BEF3F4783E36B29EBF6ECFA8 (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* __this, PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* ___0_Child, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6 (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* __this, int64_t ___0_X, int64_t ___1_Y, const RuntimeMethod* method) ;
+inline PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9 (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* (*) (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991 List_1_GetEnumerator_m630686780BDA3FD196DAC1BD1EC4E94B1A1F2911 (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991 (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mA48E95C7C906A65CABDCCA6E12CD2D5402B4C50A (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline List_1_tEE826735E783D159E78423CA05EDB5A468147FED* Enumerator_get_Current_m319E9244A5A725EF2DCCF877F0205B4525C2D6FD_inline (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991* __this, const RuntimeMethod* method)
+{
+	return ((  List_1_tEE826735E783D159E78423CA05EDB5A468147FED* (*) (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_AddPath_mD0DD00602433A90BC9331764805ABC0A3BEF1BFF (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___0_path, int32_t ___1_joinType, int32_t ___2_endType, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_mCBBB2B96D639FAD1F3C3C1F3E3F3CB504CFF4882 (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Clipper_Orientation_mD6BD7CF07FB608DF8386BA8A16B49D2A556DF383 (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___0_poly, const RuntimeMethod* method) ;
+inline void List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, const RuntimeMethod*))List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF (DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B* __this, double ___0_x, double ___1_y, const RuntimeMethod* method) ;
+inline void List_1__ctor_m83BB8D85DA90BCBFF5C083D5FC45C4F316098BCC (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClipperBase_near_zero_m3B6D7CE1038EB5D52AC3522C3D63DB3B83A95CCB (double ___0_val, const RuntimeMethod* method) ;
+inline void List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, int32_t, const RuntimeMethod*))List_1_set_Capacity_mD826E33A9E5EBC19C714653217071790693E0B95_gshared)(__this, ___0_value, method);
+}
+inline void List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, const RuntimeMethod*))List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C (double ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, const RuntimeMethod*))List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_gshared_inline)(__this, method);
+}
+inline void List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, int32_t, const RuntimeMethod*))List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED_gshared)(__this, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ClipperOffset_GetUnitNormal_mE3ED9F0F0EF6CB0446B22FA897C3962EB1F314F7 (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_pt1, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___1_pt2, const RuntimeMethod* method) ;
+inline void List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B, const RuntimeMethod*))List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_gshared_inline)(__this, ___0_item, method);
+}
+inline DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, int32_t, const RuntimeMethod*))List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DoublePoint__ctor_m02651416A397FF23F7C19BB8D2C6E8DC988F27EB (DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_dp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t* ___1_k, int32_t ___2_jointype, const RuntimeMethod* method) ;
+inline void List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, int32_t ___0_index, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, int32_t, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B, const RuntimeMethod*))List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_gshared)(__this, ___0_index, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoRound_mF6371340BC5AEF66CBF0035EE9B5E89A31E839EA (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, const RuntimeMethod* method) ;
+inline void List_1_Clear_mB0F90F79A544C6C8337E5906584E3B1F973E52EB_inline (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_FixOrientations_m5B5156DDEF8419DF91322799D8B3EC9228729FF4 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoOffset_m155D8A6F904EE7C0964DAA9375EEB2F01C470623 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_delta, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clipper__ctor_mD5E00729ED83E32E2EDEED3CE31A178EC0B6C8BA (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* __this, int32_t ___0_InitOptions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClipperBase_AddPaths_mEAF157D2E8DD985439F77879FFA8DABB1AD974C3 (ClipperBase_tEBECF248A132391100C2D948551E8815AB623472* __this, List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ___0_ppg, int32_t ___1_polyType, bool ___2_closed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Clipper_Execute_m0588BABC6244A805AFE4D184B2C56B42116A3351 (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* __this, int32_t ___0_clipType, List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ___1_solution, int32_t ___2_subjFillType, int32_t ___3_clipFillType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 ClipperBase_GetBounds_m5B9D3706DA78555E641C761497CF7D6A66527091 (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ___0_paths, const RuntimeMethod* method) ;
+inline void List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037 (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, int32_t ___0_capacity, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, int32_t, const RuntimeMethod*))List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_gshared)(__this, ___0_capacity, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClipperBase_AddPath_m571AE806B0CA626921A409161C7C3BF663DAC4AD (ClipperBase_tEBECF248A132391100C2D948551E8815AB623472* __this, List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___0_pg, int32_t ___1_polyType, bool ___2_Closed, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Clipper_set_ReverseSolution_m6A81B80AA04C4EA76148760B57CBE19D7CC47BC9_inline (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mF201A0BE94F07BE57EAA6E40E55A96AAA44BB52C_inline (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline void List_1_RemoveAt_mB4B6F6E95CBD6E2FD479C5CB5BF5E84EB540017A (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyTree_Clear_m9900E82AA71DD3294FDCBE98320F0C194ADF98EC (PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Clipper_Execute_m8CC0B6329FF7FD987F5E91DDF22FD930EE4A630C (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* __this, int32_t ___0_clipType, PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* ___1_polytree, int32_t ___2_subjFillType, int32_t ___3_clipFillType, const RuntimeMethod* method) ;
+inline void List_1_set_Capacity_m87127FC9DC27F00F3D414D6DCB5AD407BC0C61C8 (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8*, int32_t, const RuntimeMethod*))List_1_set_Capacity_mD826E33A9E5EBC19C714653217071790693E0B95_gshared)(__this, ___0_value, method);
+}
+inline void List_1_set_Item_mD30E503740C525041CD379AE19F23A5D8BA9E910 (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* __this, int32_t ___0_index, PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8*, int32_t, PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___0_index, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoMiter_m030B5A4DBDA070B5AA736E03E18E2CE122DB60D8 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, double ___2_r, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_mE82572317B6F1C3B08904EBF1AFF00E0E1A0276D (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5, const RuntimeMethod*))List_1_AddWithResize_mE82572317B6F1C3B08904EBF1AFF00E0E1A0276D_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_mAB22A911FE4CFD8AD552F49E073F36746923A46B (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B, const RuntimeMethod*))List_1_AddWithResize_mAB22A911FE4CFD8AD552F49E073F36746923A46B_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 54113
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4444>
+		double L_0 = __this->___U3CArcToleranceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 54114
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_set_ArcTolerance_m2FA01119E9EE717A92431556902E36C0EC9ECC57 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4444>
+		double L_0 = ___0_value;
+		__this->___U3CArcToleranceU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 54115
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4445>
+		double L_0 = __this->___U3CMiterLimitU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 54116
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_set_MiterLimit_m35C3021CA93C38691B25EBFA20D051619261556F (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4445>
+		double L_0 = ___0_value;
+		__this->___U3CMiterLimitU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 54117
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset__ctor_mE483631C58E58B61FF709EE8ABD0E9C75154DAEF (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_miterLimit, double ___1_arcTolerance, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4437>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_0 = (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E*)il2cpp_codegen_object_new(List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E_il2cpp_TypeInfo_var);
+		List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1(L_0, List_1__ctor_m939777E7F6FDBC5B9F358B1F41CBB77277B833F1_RuntimeMethod_var);
+		__this->___m_normals = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_normals), (void*)L_0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4442>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_1 = (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B*)il2cpp_codegen_object_new(PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B_il2cpp_TypeInfo_var);
+		PolyNode__ctor_m080C12C27BF4EFA2ED81D6DEC9968CE7193F0316(L_1, NULL);
+		__this->___m_polyNodes = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_polyNodes), (void*)L_1);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4450>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4451>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4453>
+		double L_2 = ___0_miterLimit;
+		ClipperOffset_set_MiterLimit_m35C3021CA93C38691B25EBFA20D051619261556F_inline(__this, L_2, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4454>
+		double L_3 = ___1_arcTolerance;
+		ClipperOffset_set_ArcTolerance_m2FA01119E9EE717A92431556902E36C0EC9ECC57_inline(__this, L_3, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4455>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_4 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		L_4->___X = ((int64_t)(-1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4456>
+		return;
+	}
+}
+// Method Definition Index: 54118
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_Clear_m6F972BEF6240918E445E304872FE861DEDE46353 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mEC302AADC1A01151036E76A74C6CD38D68820248_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4461>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_0 = __this->___m_polyNodes;
+		NullCheck(L_0);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_1;
+		L_1 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_0, NULL);
+		NullCheck(L_1);
+		List_1_Clear_mEC302AADC1A01151036E76A74C6CD38D68820248_inline(L_1, List_1_Clear_mEC302AADC1A01151036E76A74C6CD38D68820248_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4462>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_2 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		L_2->___X = ((int64_t)(-1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4463>
+		return;
+	}
+}
+// Method Definition Index: 54119
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C (double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4468>
+		double L_0 = ___0_value;
+		if ((((double)L_0) < ((double)(0.0))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		double L_1 = ___0_value;
+		return il2cpp_codegen_cast_double_to_int<int64_t>(((double)il2cpp_codegen_add(L_1, (0.5))));
+	}
+
+IL_0019:
+	{
+		double L_2 = ___0_value;
+		return il2cpp_codegen_cast_double_to_int<int64_t>(((double)il2cpp_codegen_subtract(L_2, (0.5))));
+	}
+}
+// Method Definition Index: 54120
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_AddPath_mD0DD00602433A90BC9331764805ABC0A3BEF1BFF (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, List_1_tEE826735E783D159E78423CA05EDB5A468147FED* ___0_path, int32_t ___1_joinType, int32_t ___2_endType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4474>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_0 = ___0_path;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_inline(L_0, List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_RuntimeMethod_var);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4475>
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) >= ((int32_t)0)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4475>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4476>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_3 = (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B*)il2cpp_codegen_object_new(PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B_il2cpp_TypeInfo_var);
+		PolyNode__ctor_m080C12C27BF4EFA2ED81D6DEC9968CE7193F0316(L_3, NULL);
+		V_1 = L_3;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4477>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_4 = V_1;
+		int32_t L_5 = ___1_joinType;
+		NullCheck(L_4);
+		L_4->___m_jointype = L_5;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4478>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_6 = V_1;
+		int32_t L_7 = ___2_endType;
+		NullCheck(L_6);
+		L_6->___m_endtype = L_7;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4481>
+		int32_t L_8 = ___2_endType;
+		if ((((int32_t)L_8) == ((int32_t)1)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		int32_t L_9 = ___2_endType;
+		if (L_9)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		goto IL_002f;
+	}
+
+IL_002b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4482>
+		int32_t L_10 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_002f:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4482>
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_11) <= ((int32_t)0)))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_12 = ___0_path;
+		NullCheck(L_12);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_13;
+		L_13 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_12, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_14 = ___0_path;
+		int32_t L_15 = V_0;
+		NullCheck(L_14);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_16;
+		L_16 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_14, L_15, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		bool L_17;
+		L_17 = IntPoint_op_Equality_mE036B6134A01D35F14D76D99D82AEC970CD71F76(L_13, L_16, NULL);
+		if (L_17)
+		{
+			goto IL_002b;
+		}
+	}
+
+IL_0048:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4483>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_18 = V_1;
+		NullCheck(L_18);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_19 = L_18->___m_polygon;
+		int32_t L_20 = V_0;
+		NullCheck(L_19);
+		List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC(L_19, ((int32_t)il2cpp_codegen_add(L_20, 1)), List_1_set_Capacity_m7A0CED3A8A202C387FFBBBB6D8B7EF360E69B7FC_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4484>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_21 = V_1;
+		NullCheck(L_21);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_22 = L_21->___m_polygon;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_23 = ___0_path;
+		NullCheck(L_23);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_24;
+		L_24 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_23, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		NullCheck(L_22);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_22, L_24, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4485>
+		V_2 = 0;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4485>
+		V_3 = 0;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4486>
+		V_4 = 1;
+		goto IL_010e;
+	}
+
+IL_0074:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4487>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_25 = V_1;
+		NullCheck(L_25);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_26 = L_25->___m_polygon;
+		int32_t L_27 = V_2;
+		NullCheck(L_26);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_28;
+		L_28 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_26, L_27, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_29 = ___0_path;
+		int32_t L_30 = V_4;
+		NullCheck(L_29);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_31;
+		L_31 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_29, L_30, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		bool L_32;
+		L_32 = IntPoint_op_Inequality_mD1C8591434E3CC23D6E08207E98B8E1B03B77039(L_28, L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4489>
+		int32_t L_33 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4490>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_34 = V_1;
+		NullCheck(L_34);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_35 = L_34->___m_polygon;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_36 = ___0_path;
+		int32_t L_37 = V_4;
+		NullCheck(L_36);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_38;
+		L_38 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_36, L_37, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		NullCheck(L_35);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_35, L_38, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4491>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4492>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4493>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_39 = ___0_path;
+		int32_t L_40 = V_4;
+		NullCheck(L_39);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_41;
+		L_41 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_39, L_40, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_42 = L_41.___Y;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_43 = V_1;
+		NullCheck(L_43);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_44 = L_43->___m_polygon;
+		int32_t L_45 = V_3;
+		NullCheck(L_44);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_46;
+		L_46 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_44, L_45, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_47 = L_46.___Y;
+		if ((((int64_t)L_42) > ((int64_t)L_47)))
+		{
+			goto IL_0106;
+		}
+	}
+	{
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_48 = ___0_path;
+		int32_t L_49 = V_4;
+		NullCheck(L_48);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_50;
+		L_50 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_48, L_49, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_51 = L_50.___Y;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_52 = V_1;
+		NullCheck(L_52);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_53 = L_52->___m_polygon;
+		int32_t L_54 = V_3;
+		NullCheck(L_53);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_55;
+		L_55 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_53, L_54, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_56 = L_55.___Y;
+		if ((!(((uint64_t)L_51) == ((uint64_t)L_56))))
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_57 = ___0_path;
+		int32_t L_58 = V_4;
+		NullCheck(L_57);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_59;
+		L_59 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_57, L_58, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_60 = L_59.___X;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_61 = V_1;
+		NullCheck(L_61);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_62 = L_61->___m_polygon;
+		int32_t L_63 = V_3;
+		NullCheck(L_62);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_64;
+		L_64 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_62, L_63, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_65 = L_64.___X;
+		if ((((int64_t)L_60) >= ((int64_t)L_65)))
+		{
+			goto IL_0108;
+		}
+	}
+
+IL_0106:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4493>
+		int32_t L_66 = V_2;
+		V_3 = L_66;
+	}
+
+IL_0108:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4486>
+		int32_t L_67 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_67, 1));
+	}
+
+IL_010e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4486>
+		int32_t L_68 = V_4;
+		int32_t L_69 = V_0;
+		if ((((int32_t)L_68) <= ((int32_t)L_69)))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4495>
+		int32_t L_70 = ___2_endType;
+		if (L_70)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		int32_t L_71 = V_2;
+		if ((((int32_t)L_71) >= ((int32_t)2)))
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4495>
+		return;
+	}
+
+IL_011e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4497>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_72 = __this->___m_polyNodes;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_73 = V_1;
+		NullCheck(L_72);
+		PolyNode_AddChild_mC381C121A4713852BEF3F4783E36B29EBF6ECFA8(L_72, L_73, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4500>
+		int32_t L_74 = ___2_endType;
+		if (!L_74)
+		{
+			goto IL_012e;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4500>
+		return;
+	}
+
+IL_012e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4501>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_75 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		int64_t L_76 = L_75->___X;
+		if ((((int64_t)L_76) >= ((int64_t)((int64_t)0))))
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4502>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_77 = __this->___m_polyNodes;
+		NullCheck(L_77);
+		int32_t L_78;
+		L_78 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_77, NULL);
+		int32_t L_79 = V_3;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_80;
+		memset((&L_80), 0, sizeof(L_80));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_80), ((int64_t)((int32_t)il2cpp_codegen_subtract(L_78, 1))), ((int64_t)L_79), NULL);
+		__this->___m_lowest = L_80;
+		return;
+	}
+
+IL_0159:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4505>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_81 = __this->___m_polyNodes;
+		NullCheck(L_81);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_82;
+		L_82 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_81, NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_83 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		int64_t L_84 = L_83->___X;
+		NullCheck(L_82);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_85;
+		L_85 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_82, ((int32_t)L_84), List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		NullCheck(L_85);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_86 = L_85->___m_polygon;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_87 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		int64_t L_88 = L_87->___Y;
+		NullCheck(L_86);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_89;
+		L_89 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_86, ((int32_t)L_88), List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		V_5 = L_89;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4506>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4507>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4508>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_90 = V_1;
+		NullCheck(L_90);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_91 = L_90->___m_polygon;
+		int32_t L_92 = V_3;
+		NullCheck(L_91);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_93;
+		L_93 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_91, L_92, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_94 = L_93.___Y;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_95 = V_5;
+		int64_t L_96 = L_95.___Y;
+		if ((((int64_t)L_94) > ((int64_t)L_96)))
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_97 = V_1;
+		NullCheck(L_97);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_98 = L_97->___m_polygon;
+		int32_t L_99 = V_3;
+		NullCheck(L_98);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_100;
+		L_100 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_98, L_99, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_101 = L_100.___Y;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_102 = V_5;
+		int64_t L_103 = L_102.___Y;
+		if ((!(((uint64_t)L_101) == ((uint64_t)L_103))))
+		{
+			goto IL_01f6;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_104 = V_1;
+		NullCheck(L_104);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_105 = L_104->___m_polygon;
+		int32_t L_106 = V_3;
+		NullCheck(L_105);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_107;
+		L_107 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_105, L_106, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_108 = L_107.___X;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_109 = V_5;
+		int64_t L_110 = L_109.___X;
+		if ((((int64_t)L_108) >= ((int64_t)L_110)))
+		{
+			goto IL_01f6;
+		}
+	}
+
+IL_01db:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4509>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_111 = __this->___m_polyNodes;
+		NullCheck(L_111);
+		int32_t L_112;
+		L_112 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_111, NULL);
+		int32_t L_113 = V_3;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_114;
+		memset((&L_114), 0, sizeof(L_114));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_114), ((int64_t)((int32_t)il2cpp_codegen_subtract(L_112, 1))), ((int64_t)L_113), NULL);
+		__this->___m_lowest = L_114;
+	}
+
+IL_01f6:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4511>
+		return;
+	}
+}
+// Method Definition Index: 54121
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_AddPaths_m84C0EDB45D6B27F487934CC3B4AB1A1256D8E512 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* ___0_paths, int32_t ___1_joinType, int32_t ___2_endType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mA48E95C7C906A65CABDCCA6E12CD2D5402B4C50A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mCBBB2B96D639FAD1F3C3C1F3E3F3CB504CFF4882_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m319E9244A5A725EF2DCCF877F0205B4525C2D6FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m630686780BDA3FD196DAC1BD1EC4E94B1A1F2911_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* V_1 = NULL;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4516>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_0 = ___0_paths;
+		NullCheck(L_0);
+		Enumerator_tED4515B4AB3FCF5D7F47C08A99130BD49FBD1991 L_1;
+		L_1 = List_1_GetEnumerator_m630686780BDA3FD196DAC1BD1EC4E94B1A1F2911(L_0, List_1_GetEnumerator_m630686780BDA3FD196DAC1BD1EC4E94B1A1F2911_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0025:
+			{
+				Enumerator_Dispose_mA48E95C7C906A65CABDCCA6E12CD2D5402B4C50A((&V_0), Enumerator_Dispose_mA48E95C7C906A65CABDCCA6E12CD2D5402B4C50A_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001a_1;
+			}
+
+IL_0009_1:
+			{
+				//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4516>
+				List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_2;
+				L_2 = Enumerator_get_Current_m319E9244A5A725EF2DCCF877F0205B4525C2D6FD_inline((&V_0), Enumerator_get_Current_m319E9244A5A725EF2DCCF877F0205B4525C2D6FD_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4517>
+				List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_3 = V_1;
+				int32_t L_4 = ___1_joinType;
+				int32_t L_5 = ___2_endType;
+				ClipperOffset_AddPath_mD0DD00602433A90BC9331764805ABC0A3BEF1BFF(__this, L_3, L_4, L_5, NULL);
+			}
+
+IL_001a_1:
+			{
+				//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4516>
+				bool L_6;
+				L_6 = Enumerator_MoveNext_mCBBB2B96D639FAD1F3C3C1F3E3F3CB504CFF4882((&V_0), Enumerator_MoveNext_mCBBB2B96D639FAD1F3C3C1F3E3F3CB504CFF4882_RuntimeMethod_var);
+				if (L_6)
+				{
+					goto IL_0009_1;
+				}
+			}
+			{
+				goto IL_0033;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0033:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4518>
+		return;
+	}
+}
+// Method Definition Index: 54122
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_FixOrientations_m5B5156DDEF8419DF91322799D8B3EC9228729FF4 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_1 = NULL;
+	int32_t V_2 = 0;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_3 = NULL;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4525>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4526>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_0 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		int64_t L_1 = L_0->___X;
+		if ((((int64_t)L_1) < ((int64_t)((int64_t)0))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_2 = __this->___m_polyNodes;
+		NullCheck(L_2);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_3;
+		L_3 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_2, NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5* L_4 = (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5*)(&__this->___m_lowest);
+		int64_t L_5 = L_4->___X;
+		NullCheck(L_3);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_6;
+		L_6 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_3, ((int32_t)L_5), List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		NullCheck(L_6);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_7 = L_6->___m_polygon;
+		bool L_8;
+		L_8 = Clipper_Orientation_mD6BD7CF07FB608DF8386BA8A16B49D2A556DF383(L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4528>
+		V_0 = 0;
+		goto IL_007a;
+	}
+
+IL_003b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4530>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_9 = __this->___m_polyNodes;
+		NullCheck(L_9);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_10;
+		L_10 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_9, NULL);
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_12;
+		L_12 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_10, L_11, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		V_1 = L_12;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4531>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4532>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4533>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_13 = V_1;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->___m_endtype;
+		if (!L_14)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_15 = V_1;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->___m_endtype;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_17 = V_1;
+		NullCheck(L_17);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_18 = L_17->___m_polygon;
+		bool L_19;
+		L_19 = Clipper_Orientation_mD6BD7CF07FB608DF8386BA8A16B49D2A556DF383(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0076;
+		}
+	}
+
+IL_006b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4534>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_20 = V_1;
+		NullCheck(L_20);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_21 = L_20->___m_polygon;
+		NullCheck(L_21);
+		List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE(L_21, List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_RuntimeMethod_var);
+	}
+
+IL_0076:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4528>
+		int32_t L_22 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+	}
+
+IL_007a:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4528>
+		int32_t L_23 = V_0;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_24 = __this->___m_polyNodes;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_24, NULL);
+		if ((((int32_t)L_23) < ((int32_t)L_25)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0089:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4539>
+		V_2 = 0;
+		goto IL_00c4;
+	}
+
+IL_008d:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4541>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_26 = __this->___m_polyNodes;
+		NullCheck(L_26);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_27;
+		L_27 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_26, NULL);
+		int32_t L_28 = V_2;
+		NullCheck(L_27);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_29;
+		L_29 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_27, L_28, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		V_3 = L_29;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4542>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4543>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_30 = V_3;
+		NullCheck(L_30);
+		int32_t L_31 = L_30->___m_endtype;
+		if ((!(((uint32_t)L_31) == ((uint32_t)1))))
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_32 = V_3;
+		NullCheck(L_32);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_33 = L_32->___m_polygon;
+		bool L_34;
+		L_34 = Clipper_Orientation_mD6BD7CF07FB608DF8386BA8A16B49D2A556DF383(L_33, NULL);
+		if (L_34)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4544>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_35 = V_3;
+		NullCheck(L_35);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_36 = L_35->___m_polygon;
+		NullCheck(L_36);
+		List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE(L_36, List_1_Reverse_m6841DC1D848E884BDED84F1AB79ADBA4EBB2DBCE_RuntimeMethod_var);
+	}
+
+IL_00c0:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4539>
+		int32_t L_37 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00c4:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4539>
+		int32_t L_38 = V_2;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_39 = __this->___m_polyNodes;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_39, NULL);
+		if ((((int32_t)L_38) < ((int32_t)L_40)))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4547>
+		return;
+	}
+}
+// Method Definition Index: 54123
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ClipperOffset_GetUnitNormal_mE3ED9F0F0EF6CB0446B22FA897C3962EB1F314F7 (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_pt1, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___1_pt2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	double V_2 = 0.0;
+	DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4552>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_0 = ___1_pt2;
+		int64_t L_1 = L_0.___X;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_2 = ___0_pt1;
+		int64_t L_3 = L_2.___X;
+		V_0 = ((double)((int64_t)il2cpp_codegen_subtract(L_1, L_3)));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4553>
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_4 = ___1_pt2;
+		int64_t L_5 = L_4.___Y;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_6 = ___0_pt1;
+		int64_t L_7 = L_6.___Y;
+		V_1 = ((double)((int64_t)il2cpp_codegen_subtract(L_5, L_7)));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4554>
+		double L_8 = V_0;
+		if ((!(((double)L_8) == ((double)(0.0)))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		double L_9 = V_1;
+		if ((!(((double)L_9) == ((double)(0.0)))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4554>
+		il2cpp_codegen_initobj((&V_3), sizeof(DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B));
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_10 = V_3;
+		return L_10;
+	}
+
+IL_0040:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4556>
+		double L_11 = V_0;
+		double L_12 = V_0;
+		double L_13 = V_1;
+		double L_14 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_15;
+		L_15 = sqrt(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_11, L_12)), ((double)il2cpp_codegen_multiply(L_13, L_14)))));
+		V_2 = ((double)((1.0)/L_15));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4557>
+		double L_16 = V_0;
+		double L_17 = V_2;
+		V_0 = ((double)il2cpp_codegen_multiply(L_16, L_17));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4558>
+		double L_18 = V_1;
+		double L_19 = V_2;
+		V_1 = ((double)il2cpp_codegen_multiply(L_18, L_19));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4560>
+		double L_20 = V_1;
+		double L_21 = V_0;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_22), L_20, ((-L_21)), NULL);
+		return L_22;
+	}
+}
+// Method Definition Index: 54124
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoOffset_m155D8A6F904EE7C0964DAA9375EEB2F01C470623 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_delta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m83BB8D85DA90BCBFF5C083D5FC45C4F316098BCC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	int32_t V_2 = 0;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_3 = NULL;
+	int32_t V_4 = 0;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_5 = NULL;
+	int32_t V_6 = 0;
+	double V_7 = 0.0;
+	double V_8 = 0.0;
+	int32_t V_9 = 0;
+	double V_10 = 0.0;
+	double V_11 = 0.0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	int32_t V_23 = 0;
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	int32_t V_26 = 0;
+	int32_t V_27 = 0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4566>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_0 = (List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248*)il2cpp_codegen_object_new(List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248_il2cpp_TypeInfo_var);
+		List_1__ctor_m83BB8D85DA90BCBFF5C083D5FC45C4F316098BCC(L_0, List_1__ctor_m83BB8D85DA90BCBFF5C083D5FC45C4F316098BCC_RuntimeMethod_var);
+		__this->___m_destPolys = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_destPolys), (void*)L_0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4567>
+		double L_1 = ___0_delta;
+		__this->___m_delta = L_1;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4570>
+		double L_2 = ___0_delta;
+		bool L_3;
+		L_3 = ClipperBase_near_zero_m3B6D7CE1038EB5D52AC3522C3D63DB3B83A95CCB(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4572>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_4 = __this->___m_destPolys;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_5 = __this->___m_polyNodes;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_5, NULL);
+		NullCheck(L_4);
+		List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F(L_4, L_6, List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4573>
+		V_2 = 0;
+		goto IL_0063;
+	}
+
+IL_0034:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4575>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_7 = __this->___m_polyNodes;
+		NullCheck(L_7);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_8;
+		L_8 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_7, NULL);
+		int32_t L_9 = V_2;
+		NullCheck(L_8);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_10;
+		L_10 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_8, L_9, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		V_3 = L_10;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4576>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_11 = V_3;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->___m_endtype;
+		if (L_12)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4577>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_13 = __this->___m_destPolys;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_14 = V_3;
+		NullCheck(L_14);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_15 = L_14->___m_polygon;
+		NullCheck(L_13);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_13, L_15, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+	}
+
+IL_005f:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4573>
+		int32_t L_16 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0063:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4573>
+		int32_t L_17 = V_2;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_18 = __this->___m_polyNodes;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_18, NULL);
+		if ((((int32_t)L_17) < ((int32_t)L_19)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4579>
+		return;
+	}
+
+IL_0072:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4583>
+		double L_20;
+		L_20 = ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0_inline(__this, NULL);
+		if ((!(((double)L_20) > ((double)(2.0)))))
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4583>
+		double L_21;
+		L_21 = ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0_inline(__this, NULL);
+		double L_22;
+		L_22 = ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0_inline(__this, NULL);
+		__this->___m_miterLim = ((double)((2.0)/((double)il2cpp_codegen_multiply(L_21, L_22))));
+		goto IL_00b1;
+	}
+
+IL_00a2:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4584>
+		__this->___m_miterLim = (0.5);
+	}
+
+IL_00b1:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4587>
+		double L_23;
+		L_23 = ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC_inline(__this, NULL);
+		if ((!(((double)L_23) <= ((double)(0.0)))))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4588>
+		V_0 = (0.25);
+		goto IL_0100;
+	}
+
+IL_00ce:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4589>
+		double L_24;
+		L_24 = ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC_inline(__this, NULL);
+		double L_25 = ___0_delta;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_26;
+		L_26 = fabs(L_25);
+		if ((!(((double)L_24) > ((double)((double)il2cpp_codegen_multiply(L_26, (0.25)))))))
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4590>
+		double L_27 = ___0_delta;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_28;
+		L_28 = fabs(L_27);
+		V_0 = ((double)il2cpp_codegen_multiply(L_28, (0.25)));
+		goto IL_0100;
+	}
+
+IL_00f9:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4592>
+		double L_29;
+		L_29 = ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC_inline(__this, NULL);
+		V_0 = L_29;
+	}
+
+IL_0100:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4594>
+		double L_30 = V_0;
+		double L_31 = ___0_delta;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_32;
+		L_32 = fabs(L_31);
+		double L_33;
+		L_33 = acos(((double)il2cpp_codegen_subtract((1.0), ((double)(L_30/L_32)))));
+		V_1 = ((double)((3.1415926535897931)/L_33));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4595>
+		double L_34 = V_1;
+		double L_35;
+		L_35 = sin(((double)((6.2831853071795862)/L_34)));
+		__this->___m_sin = L_35;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4596>
+		double L_36 = V_1;
+		double L_37;
+		L_37 = cos(((double)((6.2831853071795862)/L_36)));
+		__this->___m_cos = L_37;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4597>
+		double L_38 = V_1;
+		__this->___m_StepsPerRad = ((double)(L_38/(6.2831853071795862)));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4598>
+		double L_39 = ___0_delta;
+		if ((!(((double)L_39) < ((double)(0.0)))))
+		{
+			goto IL_0178;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4598>
+		double L_40 = __this->___m_sin;
+		__this->___m_sin = ((-L_40));
+	}
+
+IL_0178:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4600>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_41 = __this->___m_destPolys;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_42 = __this->___m_polyNodes;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_42, NULL);
+		NullCheck(L_41);
+		List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F(L_41, ((int32_t)il2cpp_codegen_multiply(L_43, 2)), List_1_set_Capacity_m7103651FD662299A07E3B7FCA9384CC66D63151F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4601>
+		V_4 = 0;
+		goto IL_08e1;
+	}
+
+IL_0198:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4603>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_44 = __this->___m_polyNodes;
+		NullCheck(L_44);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_45;
+		L_45 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_44, NULL);
+		int32_t L_46 = V_4;
+		NullCheck(L_45);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_47;
+		L_47 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_45, L_46, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		V_5 = L_47;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4604>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_48 = V_5;
+		NullCheck(L_48);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_49 = L_48->___m_polygon;
+		__this->___m_srcPoly = L_49;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_srcPoly), (void*)L_49);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4606>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_50 = __this->___m_srcPoly;
+		NullCheck(L_50);
+		int32_t L_51;
+		L_51 = List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_inline(L_50, List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_RuntimeMethod_var);
+		V_6 = L_51;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4608>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4609>
+		int32_t L_52 = V_6;
+		if (!L_52)
+		{
+			goto IL_08db;
+		}
+	}
+	{
+		double L_53 = ___0_delta;
+		if ((!(((double)L_53) <= ((double)(0.0)))))
+		{
+			goto IL_01ed;
+		}
+	}
+	{
+		int32_t L_54 = V_6;
+		if ((((int32_t)L_54) < ((int32_t)3)))
+		{
+			goto IL_08db;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_55 = V_5;
+		NullCheck(L_55);
+		int32_t L_56 = L_55->___m_endtype;
+		if (L_56)
+		{
+			goto IL_08db;
+		}
+	}
+
+IL_01ed:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4612>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_57 = (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*)il2cpp_codegen_object_new(List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD(L_57, List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_RuntimeMethod_var);
+		__this->___m_destPoly = L_57;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_destPoly), (void*)L_57);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4614>
+		int32_t L_58 = V_6;
+		if ((!(((uint32_t)L_58) == ((uint32_t)1))))
+		{
+			goto IL_0374;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4616>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_59 = V_5;
+		NullCheck(L_59);
+		int32_t L_60 = L_59->___m_jointype;
+		if ((!(((uint32_t)L_60) == ((uint32_t)1))))
+		{
+			goto IL_02ab;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4618>
+		V_7 = (1.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4618>
+		V_8 = (0.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4619>
+		V_9 = 1;
+		goto IL_02a0;
+	}
+
+IL_0228:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4621>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4622>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4623>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_61 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_62 = __this->___m_srcPoly;
+		NullCheck(L_62);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_63;
+		L_63 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_62, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_64 = L_63.___X;
+		double L_65 = V_7;
+		double L_66 = ___0_delta;
+		int64_t L_67;
+		L_67 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_64), ((double)il2cpp_codegen_multiply(L_65, L_66)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_68 = __this->___m_srcPoly;
+		NullCheck(L_68);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_69;
+		L_69 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_68, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_70 = L_69.___Y;
+		double L_71 = V_8;
+		double L_72 = ___0_delta;
+		int64_t L_73;
+		L_73 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_70), ((double)il2cpp_codegen_multiply(L_71, L_72)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_74;
+		memset((&L_74), 0, sizeof(L_74));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_74), L_67, L_73, NULL);
+		NullCheck(L_61);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_61, L_74, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4624>
+		double L_75 = V_7;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4625>
+		double L_76 = V_7;
+		double L_77 = __this->___m_cos;
+		double L_78 = __this->___m_sin;
+		double L_79 = V_8;
+		V_7 = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(L_76, L_77)), ((double)il2cpp_codegen_multiply(L_78, L_79))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4626>
+		double L_80 = __this->___m_sin;
+		double L_81 = V_8;
+		double L_82 = __this->___m_cos;
+		V_8 = ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_75, L_80)), ((double)il2cpp_codegen_multiply(L_81, L_82))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4619>
+		int32_t L_83 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_83, 1));
+	}
+
+IL_02a0:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4619>
+		int32_t L_84 = V_9;
+		double L_85 = V_1;
+		if ((((double)((double)L_84)) <= ((double)L_85)))
+		{
+			goto IL_0228;
+		}
+	}
+	{
+		goto IL_035e;
+	}
+
+IL_02ab:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4631>
+		V_10 = (-1.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4631>
+		V_11 = (-1.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4632>
+		V_12 = 0;
+		goto IL_0356;
+	}
+
+IL_02c9:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4634>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4635>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4636>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_86 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_87 = __this->___m_srcPoly;
+		NullCheck(L_87);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_88;
+		L_88 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_87, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_89 = L_88.___X;
+		double L_90 = V_10;
+		double L_91 = ___0_delta;
+		int64_t L_92;
+		L_92 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_89), ((double)il2cpp_codegen_multiply(L_90, L_91)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_93 = __this->___m_srcPoly;
+		NullCheck(L_93);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_94;
+		L_94 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_93, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_95 = L_94.___Y;
+		double L_96 = V_11;
+		double L_97 = ___0_delta;
+		int64_t L_98;
+		L_98 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_95), ((double)il2cpp_codegen_multiply(L_96, L_97)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_99;
+		memset((&L_99), 0, sizeof(L_99));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_99), L_92, L_98, NULL);
+		NullCheck(L_86);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_86, L_99, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4637>
+		double L_100 = V_10;
+		if ((!(((double)L_100) < ((double)(0.0)))))
+		{
+			goto IL_032b;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4637>
+		V_10 = (1.0);
+		goto IL_0350;
+	}
+
+IL_032b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4638>
+		double L_101 = V_11;
+		if ((!(((double)L_101) < ((double)(0.0)))))
+		{
+			goto IL_0345;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4638>
+		V_11 = (1.0);
+		goto IL_0350;
+	}
+
+IL_0345:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4639>
+		V_10 = (-1.0);
+	}
+
+IL_0350:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4632>
+		int32_t L_102 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_102, 1));
+	}
+
+IL_0356:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4632>
+		int32_t L_103 = V_12;
+		if ((((int32_t)L_103) < ((int32_t)4)))
+		{
+			goto IL_02c9;
+		}
+	}
+
+IL_035e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4642>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_104 = __this->___m_destPolys;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_105 = __this->___m_destPoly;
+		NullCheck(L_104);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_104, L_105, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4643>
+		goto IL_08db;
+	}
+
+IL_0374:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4647>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_106 = __this->___m_normals;
+		NullCheck(L_106);
+		List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_inline(L_106, List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4648>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_107 = __this->___m_normals;
+		int32_t L_108 = V_6;
+		NullCheck(L_107);
+		List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED(L_107, L_108, List_1_set_Capacity_mA574127B8BA61909A56BB1E732A683C9AA77E2ED_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4649>
+		V_13 = 0;
+		goto IL_03c3;
+	}
+
+IL_0391:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4650>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_109 = __this->___m_normals;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_110 = __this->___m_srcPoly;
+		int32_t L_111 = V_13;
+		NullCheck(L_110);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_112;
+		L_112 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_110, L_111, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_113 = __this->___m_srcPoly;
+		int32_t L_114 = V_13;
+		NullCheck(L_113);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_115;
+		L_115 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_113, ((int32_t)il2cpp_codegen_add(L_114, 1)), List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_116;
+		L_116 = ClipperOffset_GetUnitNormal_mE3ED9F0F0EF6CB0446B22FA897C3962EB1F314F7(L_112, L_115, NULL);
+		NullCheck(L_109);
+		List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_inline(L_109, L_116, List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4649>
+		int32_t L_117 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_117, 1));
+	}
+
+IL_03c3:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4649>
+		int32_t L_118 = V_13;
+		int32_t L_119 = V_6;
+		if ((((int32_t)L_118) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_119, 1)))))
+		{
+			goto IL_0391;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4651>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4652>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_120 = V_5;
+		NullCheck(L_120);
+		int32_t L_121 = L_120->___m_endtype;
+		if ((((int32_t)L_121) == ((int32_t)1)))
+		{
+			goto IL_03de;
+		}
+	}
+	{
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_122 = V_5;
+		NullCheck(L_122);
+		int32_t L_123 = L_122->___m_endtype;
+		if (L_123)
+		{
+			goto IL_040b;
+		}
+	}
+
+IL_03de:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4653>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_124 = __this->___m_normals;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_125 = __this->___m_srcPoly;
+		int32_t L_126 = V_6;
+		NullCheck(L_125);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_127;
+		L_127 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_125, ((int32_t)il2cpp_codegen_subtract(L_126, 1)), List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_128 = __this->___m_srcPoly;
+		NullCheck(L_128);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_129;
+		L_129 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_128, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_130;
+		L_130 = ClipperOffset_GetUnitNormal_mE3ED9F0F0EF6CB0446B22FA897C3962EB1F314F7(L_127, L_129, NULL);
+		NullCheck(L_124);
+		List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_inline(L_124, L_130, List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_RuntimeMethod_var);
+		goto IL_042a;
+	}
+
+IL_040b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4655>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_131 = __this->___m_normals;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_132 = __this->___m_normals;
+		int32_t L_133 = V_6;
+		NullCheck(L_132);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_134;
+		L_134 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_132, ((int32_t)il2cpp_codegen_subtract(L_133, 2)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_135;
+		memset((&L_135), 0, sizeof(L_135));
+		DoublePoint__ctor_m02651416A397FF23F7C19BB8D2C6E8DC988F27EB((&L_135), L_134, NULL);
+		NullCheck(L_131);
+		List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_inline(L_131, L_135, List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_RuntimeMethod_var);
+	}
+
+IL_042a:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4657>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_136 = V_5;
+		NullCheck(L_136);
+		int32_t L_137 = L_136->___m_endtype;
+		if (L_137)
+		{
+			goto IL_0471;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4659>
+		int32_t L_138 = V_6;
+		V_14 = ((int32_t)il2cpp_codegen_subtract(L_138, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4660>
+		V_15 = 0;
+		goto IL_0455;
+	}
+
+IL_043e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4661>
+		int32_t L_139 = V_15;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_140 = V_5;
+		NullCheck(L_140);
+		int32_t L_141 = L_140->___m_jointype;
+		ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E(__this, L_139, (&V_14), L_141, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4660>
+		int32_t L_142 = V_15;
+		V_15 = ((int32_t)il2cpp_codegen_add(L_142, 1));
+	}
+
+IL_0455:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4660>
+		int32_t L_143 = V_15;
+		int32_t L_144 = V_6;
+		if ((((int32_t)L_143) < ((int32_t)L_144)))
+		{
+			goto IL_043e;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4662>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_145 = __this->___m_destPolys;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_146 = __this->___m_destPoly;
+		NullCheck(L_145);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_145, L_146, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+		goto IL_08db;
+	}
+
+IL_0471:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4664>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_147 = V_5;
+		NullCheck(L_147);
+		int32_t L_148 = L_147->___m_endtype;
+		if ((!(((uint32_t)L_148) == ((uint32_t)1))))
+		{
+			goto IL_0580;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4666>
+		int32_t L_149 = V_6;
+		V_16 = ((int32_t)il2cpp_codegen_subtract(L_149, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4667>
+		V_18 = 0;
+		goto IL_04a0;
+	}
+
+IL_0489:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4668>
+		int32_t L_150 = V_18;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_151 = V_5;
+		NullCheck(L_151);
+		int32_t L_152 = L_151->___m_jointype;
+		ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E(__this, L_150, (&V_16), L_152, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4667>
+		int32_t L_153 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_153, 1));
+	}
+
+IL_04a0:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4667>
+		int32_t L_154 = V_18;
+		int32_t L_155 = V_6;
+		if ((((int32_t)L_154) < ((int32_t)L_155)))
+		{
+			goto IL_0489;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4669>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_156 = __this->___m_destPolys;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_157 = __this->___m_destPoly;
+		NullCheck(L_156);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_156, L_157, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4670>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_158 = (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*)il2cpp_codegen_object_new(List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD(L_158, List_1__ctor_m1E68DE657C713D3E62DED4A8E9832F2176CF4DCD_RuntimeMethod_var);
+		__this->___m_destPoly = L_158;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_destPoly), (void*)L_158);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4672>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_159 = __this->___m_normals;
+		int32_t L_160 = V_6;
+		NullCheck(L_159);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_161;
+		L_161 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_159, ((int32_t)il2cpp_codegen_subtract(L_160, 1)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		V_17 = L_161;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4673>
+		int32_t L_162 = V_6;
+		V_19 = ((int32_t)il2cpp_codegen_subtract(L_162, 1));
+		goto IL_051d;
+	}
+
+IL_04db:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4674>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_163 = __this->___m_normals;
+		int32_t L_164 = V_19;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_165 = __this->___m_normals;
+		int32_t L_166 = V_19;
+		NullCheck(L_165);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_167;
+		L_167 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_165, ((int32_t)il2cpp_codegen_subtract(L_166, 1)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_168 = L_167.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_169 = __this->___m_normals;
+		int32_t L_170 = V_19;
+		NullCheck(L_169);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_171;
+		L_171 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_169, ((int32_t)il2cpp_codegen_subtract(L_170, 1)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_172 = L_171.___Y;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_173;
+		memset((&L_173), 0, sizeof(L_173));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_173), ((-L_168)), ((-L_172)), NULL);
+		NullCheck(L_163);
+		List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF(L_163, L_164, L_173, List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4673>
+		int32_t L_174 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_subtract(L_174, 1));
+	}
+
+IL_051d:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4673>
+		int32_t L_175 = V_19;
+		if ((((int32_t)L_175) > ((int32_t)0)))
+		{
+			goto IL_04db;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4675>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_176 = __this->___m_normals;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_177 = V_17;
+		double L_178 = L_177.___X;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_179 = V_17;
+		double L_180 = L_179.___Y;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_181;
+		memset((&L_181), 0, sizeof(L_181));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_181), ((-L_178)), ((-L_180)), NULL);
+		NullCheck(L_176);
+		List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF(L_176, 0, L_181, List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4676>
+		V_16 = 0;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4677>
+		int32_t L_182 = V_6;
+		V_20 = ((int32_t)il2cpp_codegen_subtract(L_182, 1));
+		goto IL_0565;
+	}
+
+IL_054e:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4678>
+		int32_t L_183 = V_20;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_184 = V_5;
+		NullCheck(L_184);
+		int32_t L_185 = L_184->___m_jointype;
+		ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E(__this, L_183, (&V_16), L_185, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4677>
+		int32_t L_186 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_subtract(L_186, 1));
+	}
+
+IL_0565:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4677>
+		int32_t L_187 = V_20;
+		if ((((int32_t)L_187) >= ((int32_t)0)))
+		{
+			goto IL_054e;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4679>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_188 = __this->___m_destPolys;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_189 = __this->___m_destPoly;
+		NullCheck(L_188);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_188, L_189, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+		goto IL_08db;
+	}
+
+IL_0580:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4683>
+		V_21 = 0;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4684>
+		V_23 = 1;
+		goto IL_059f;
+	}
+
+IL_0588:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4685>
+		int32_t L_190 = V_23;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_191 = V_5;
+		NullCheck(L_191);
+		int32_t L_192 = L_191->___m_jointype;
+		ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E(__this, L_190, (&V_21), L_192, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4684>
+		int32_t L_193 = V_23;
+		V_23 = ((int32_t)il2cpp_codegen_add(L_193, 1));
+	}
+
+IL_059f:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4684>
+		int32_t L_194 = V_23;
+		int32_t L_195 = V_6;
+		if ((((int32_t)L_194) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_195, 1)))))
+		{
+			goto IL_0588;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4688>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_196 = V_5;
+		NullCheck(L_196);
+		int32_t L_197 = L_196->___m_endtype;
+		if ((!(((uint32_t)L_197) == ((uint32_t)2))))
+		{
+			goto IL_0698;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4690>
+		int32_t L_198 = V_6;
+		V_24 = ((int32_t)il2cpp_codegen_subtract(L_198, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4691>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4692>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_199 = __this->___m_srcPoly;
+		int32_t L_200 = V_24;
+		NullCheck(L_199);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_201;
+		L_201 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_199, L_200, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_202 = L_201.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_203 = __this->___m_normals;
+		int32_t L_204 = V_24;
+		NullCheck(L_203);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_205;
+		L_205 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_203, L_204, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_206 = L_205.___X;
+		double L_207 = ___0_delta;
+		int64_t L_208;
+		L_208 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_202), ((double)il2cpp_codegen_multiply(L_206, L_207)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_209 = __this->___m_srcPoly;
+		int32_t L_210 = V_24;
+		NullCheck(L_209);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_211;
+		L_211 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_209, L_210, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_212 = L_211.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_213 = __this->___m_normals;
+		int32_t L_214 = V_24;
+		NullCheck(L_213);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_215;
+		L_215 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_213, L_214, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_216 = L_215.___Y;
+		double L_217 = ___0_delta;
+		int64_t L_218;
+		L_218 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_212), ((double)il2cpp_codegen_multiply(L_216, L_217)))), NULL);
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&V_22), L_208, L_218, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4693>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_219 = __this->___m_destPoly;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_220 = V_22;
+		NullCheck(L_219);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_219, L_220, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4694>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4695>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_221 = __this->___m_srcPoly;
+		int32_t L_222 = V_24;
+		NullCheck(L_221);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_223;
+		L_223 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_221, L_222, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_224 = L_223.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_225 = __this->___m_normals;
+		int32_t L_226 = V_24;
+		NullCheck(L_225);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_227;
+		L_227 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_225, L_226, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_228 = L_227.___X;
+		double L_229 = ___0_delta;
+		int64_t L_230;
+		L_230 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_subtract(((double)L_224), ((double)il2cpp_codegen_multiply(L_228, L_229)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_231 = __this->___m_srcPoly;
+		int32_t L_232 = V_24;
+		NullCheck(L_231);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_233;
+		L_233 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_231, L_232, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_234 = L_233.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_235 = __this->___m_normals;
+		int32_t L_236 = V_24;
+		NullCheck(L_235);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_237;
+		L_237 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_235, L_236, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_238 = L_237.___Y;
+		double L_239 = ___0_delta;
+		int64_t L_240;
+		L_240 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_subtract(((double)L_234), ((double)il2cpp_codegen_multiply(L_238, L_239)))), NULL);
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&V_22), L_230, L_240, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4696>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_241 = __this->___m_destPoly;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_242 = V_22;
+		NullCheck(L_241);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_241, L_242, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		goto IL_070b;
+	}
+
+IL_0698:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4700>
+		int32_t L_243 = V_6;
+		V_25 = ((int32_t)il2cpp_codegen_subtract(L_243, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4701>
+		int32_t L_244 = V_6;
+		V_21 = ((int32_t)il2cpp_codegen_subtract(L_244, 2));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4702>
+		__this->___m_sinA = (0.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4703>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_245 = __this->___m_normals;
+		int32_t L_246 = V_25;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_247 = __this->___m_normals;
+		int32_t L_248 = V_25;
+		NullCheck(L_247);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_249;
+		L_249 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_247, L_248, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_250 = L_249.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_251 = __this->___m_normals;
+		int32_t L_252 = V_25;
+		NullCheck(L_251);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_253;
+		L_253 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_251, L_252, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_254 = L_253.___Y;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_255;
+		memset((&L_255), 0, sizeof(L_255));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_255), ((-L_250)), ((-L_254)), NULL);
+		NullCheck(L_245);
+		List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF(L_245, L_246, L_255, List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4704>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_256 = V_5;
+		NullCheck(L_256);
+		int32_t L_257 = L_256->___m_endtype;
+		if ((!(((uint32_t)L_257) == ((uint32_t)3))))
+		{
+			goto IL_0701;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4705>
+		int32_t L_258 = V_25;
+		int32_t L_259 = V_21;
+		ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81(__this, L_258, L_259, NULL);
+		goto IL_070b;
+	}
+
+IL_0701:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4707>
+		int32_t L_260 = V_25;
+		int32_t L_261 = V_21;
+		ClipperOffset_DoRound_mF6371340BC5AEF66CBF0035EE9B5E89A31E839EA(__this, L_260, L_261, NULL);
+	}
+
+IL_070b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4711>
+		int32_t L_262 = V_6;
+		V_26 = ((int32_t)il2cpp_codegen_subtract(L_262, 1));
+		goto IL_0755;
+	}
+
+IL_0713:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4712>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_263 = __this->___m_normals;
+		int32_t L_264 = V_26;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_265 = __this->___m_normals;
+		int32_t L_266 = V_26;
+		NullCheck(L_265);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_267;
+		L_267 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_265, ((int32_t)il2cpp_codegen_subtract(L_266, 1)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_268 = L_267.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_269 = __this->___m_normals;
+		int32_t L_270 = V_26;
+		NullCheck(L_269);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_271;
+		L_271 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_269, ((int32_t)il2cpp_codegen_subtract(L_270, 1)), List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_272 = L_271.___Y;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_273;
+		memset((&L_273), 0, sizeof(L_273));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_273), ((-L_268)), ((-L_272)), NULL);
+		NullCheck(L_263);
+		List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF(L_263, L_264, L_273, List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4711>
+		int32_t L_274 = V_26;
+		V_26 = ((int32_t)il2cpp_codegen_subtract(L_274, 1));
+	}
+
+IL_0755:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4711>
+		int32_t L_275 = V_26;
+		if ((((int32_t)L_275) > ((int32_t)0)))
+		{
+			goto IL_0713;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4714>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_276 = __this->___m_normals;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_277 = __this->___m_normals;
+		NullCheck(L_277);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_278;
+		L_278 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_277, 1, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_279 = L_278.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_280 = __this->___m_normals;
+		NullCheck(L_280);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_281;
+		L_281 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_280, 1, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_282 = L_281.___Y;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_283;
+		memset((&L_283), 0, sizeof(L_283));
+		DoublePoint__ctor_m41FD233482B6A2AD4B4FCA910A458F4818A0C7CF((&L_283), ((-L_279)), ((-L_282)), NULL);
+		NullCheck(L_276);
+		List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF(L_276, 0, L_283, List_1_set_Item_mE85BF6AA1698275D7EC29738F48ABA85225EA2FF_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4716>
+		int32_t L_284 = V_6;
+		V_21 = ((int32_t)il2cpp_codegen_subtract(L_284, 1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4717>
+		int32_t L_285 = V_21;
+		V_27 = ((int32_t)il2cpp_codegen_subtract(L_285, 1));
+		goto IL_07b4;
+	}
+
+IL_079d:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4718>
+		int32_t L_286 = V_27;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_287 = V_5;
+		NullCheck(L_287);
+		int32_t L_288 = L_287->___m_jointype;
+		ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E(__this, L_286, (&V_21), L_288, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4717>
+		int32_t L_289 = V_27;
+		V_27 = ((int32_t)il2cpp_codegen_subtract(L_289, 1));
+	}
+
+IL_07b4:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4717>
+		int32_t L_290 = V_27;
+		if ((((int32_t)L_290) > ((int32_t)0)))
+		{
+			goto IL_079d;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4720>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_291 = V_5;
+		NullCheck(L_291);
+		int32_t L_292 = L_291->___m_endtype;
+		if ((!(((uint32_t)L_292) == ((uint32_t)2))))
+		{
+			goto IL_089c;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4722>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4723>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_293 = __this->___m_srcPoly;
+		NullCheck(L_293);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_294;
+		L_294 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_293, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_295 = L_294.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_296 = __this->___m_normals;
+		NullCheck(L_296);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_297;
+		L_297 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_296, 0, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_298 = L_297.___X;
+		double L_299 = ___0_delta;
+		int64_t L_300;
+		L_300 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_subtract(((double)L_295), ((double)il2cpp_codegen_multiply(L_298, L_299)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_301 = __this->___m_srcPoly;
+		NullCheck(L_301);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_302;
+		L_302 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_301, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_303 = L_302.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_304 = __this->___m_normals;
+		NullCheck(L_304);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_305;
+		L_305 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_304, 0, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_306 = L_305.___Y;
+		double L_307 = ___0_delta;
+		int64_t L_308;
+		L_308 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_subtract(((double)L_303), ((double)il2cpp_codegen_multiply(L_306, L_307)))), NULL);
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&V_22), L_300, L_308, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4724>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_309 = __this->___m_destPoly;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_310 = V_22;
+		NullCheck(L_309);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_309, L_310, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4725>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4726>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_311 = __this->___m_srcPoly;
+		NullCheck(L_311);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_312;
+		L_312 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_311, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_313 = L_312.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_314 = __this->___m_normals;
+		NullCheck(L_314);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_315;
+		L_315 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_314, 0, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_316 = L_315.___X;
+		double L_317 = ___0_delta;
+		int64_t L_318;
+		L_318 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_313), ((double)il2cpp_codegen_multiply(L_316, L_317)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_319 = __this->___m_srcPoly;
+		NullCheck(L_319);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_320;
+		L_320 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_319, 0, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_321 = L_320.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_322 = __this->___m_normals;
+		NullCheck(L_322);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_323;
+		L_323 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_322, 0, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_324 = L_323.___Y;
+		double L_325 = ___0_delta;
+		int64_t L_326;
+		L_326 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_321), ((double)il2cpp_codegen_multiply(L_324, L_325)))), NULL);
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&V_22), L_318, L_326, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4727>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_327 = __this->___m_destPoly;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_328 = V_22;
+		NullCheck(L_327);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_327, L_328, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		goto IL_08ca;
+	}
+
+IL_089c:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4731>
+		V_21 = 1;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4732>
+		__this->___m_sinA = (0.0);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4733>
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_329 = V_5;
+		NullCheck(L_329);
+		int32_t L_330 = L_329->___m_endtype;
+		if ((!(((uint32_t)L_330) == ((uint32_t)3))))
+		{
+			goto IL_08c2;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4734>
+		ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81(__this, 0, 1, NULL);
+		goto IL_08ca;
+	}
+
+IL_08c2:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4736>
+		ClipperOffset_DoRound_mF6371340BC5AEF66CBF0035EE9B5E89A31E839EA(__this, 0, 1, NULL);
+	}
+
+IL_08ca:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4738>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_331 = __this->___m_destPolys;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_332 = __this->___m_destPoly;
+		NullCheck(L_331);
+		List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_inline(L_331, L_332, List_1_Add_m89D31A6CFF2A32EAA420062760F28B77EE351435_RuntimeMethod_var);
+	}
+
+IL_08db:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4601>
+		int32_t L_333 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_333, 1));
+	}
+
+IL_08e1:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4601>
+		int32_t L_334 = V_4;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_335 = __this->___m_polyNodes;
+		NullCheck(L_335);
+		int32_t L_336;
+		L_336 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_335, NULL);
+		if ((((int32_t)L_334) < ((int32_t)L_336)))
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4741>
+		return;
+	}
+}
+// Method Definition Index: 54125
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_Execute_m0662E9AA3BED9926E1CA17A4AF94323642D80E1E (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** ___0_solution, double ___1_delta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mB0F90F79A544C6C8337E5906584E3B1F973E52EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_mB4B6F6E95CBD6E2FD479C5CB5BF5E84EB540017A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF201A0BE94F07BE57EAA6E40E55A96AAA44BB52C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* V_0 = NULL;
+	IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* V_2 = NULL;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4746>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** L_0 = ___0_solution;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_1 = *((List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248**)L_0);
+		NullCheck(L_1);
+		List_1_Clear_mB0F90F79A544C6C8337E5906584E3B1F973E52EB_inline(L_1, List_1_Clear_mB0F90F79A544C6C8337E5906584E3B1F973E52EB_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4747>
+		ClipperOffset_FixOrientations_m5B5156DDEF8419DF91322799D8B3EC9228729FF4(__this, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4748>
+		double L_2 = ___1_delta;
+		ClipperOffset_DoOffset_m155D8A6F904EE7C0964DAA9375EEB2F01C470623(__this, L_2, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4750>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_3 = (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12*)il2cpp_codegen_object_new(Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12_il2cpp_TypeInfo_var);
+		Clipper__ctor_mD5E00729ED83E32E2EDEED3CE31A178EC0B6C8BA(L_3, 0, NULL);
+		V_0 = L_3;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4751>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_4 = V_0;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_5 = __this->___m_destPolys;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = ClipperBase_AddPaths_mEAF157D2E8DD985439F77879FFA8DABB1AD974C3(L_4, L_5, 0, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4752>
+		double L_7 = ___1_delta;
+		if ((!(((double)L_7) > ((double)(0.0)))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4754>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4755>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_8 = V_0;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** L_9 = ___0_solution;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_10 = *((List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248**)L_9);
+		NullCheck(L_8);
+		bool L_11;
+		L_11 = Clipper_Execute_m0588BABC6244A805AFE4D184B2C56B42116A3351(L_8, 1, L_10, 2, 2, NULL);
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4759>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_12 = __this->___m_destPolys;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_13;
+		L_13 = ClipperBase_GetBounds_m5B9D3706DA78555E641C761497CF7D6A66527091(L_12, NULL);
+		V_1 = L_13;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4760>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_14 = (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*)il2cpp_codegen_object_new(List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037(L_14, 4, List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_RuntimeMethod_var);
+		V_2 = L_14;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4762>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_15 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_16 = V_1;
+		int64_t L_17 = L_16.___left;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_18 = V_1;
+		int64_t L_19 = L_18.___bottom;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_20), ((int64_t)il2cpp_codegen_subtract(L_17, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_add(L_19, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_15);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_15, L_20, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4763>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_21 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_22 = V_1;
+		int64_t L_23 = L_22.___right;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_24 = V_1;
+		int64_t L_25 = L_24.___bottom;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_26), ((int64_t)il2cpp_codegen_add(L_23, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_add(L_25, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_21);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_21, L_26, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4764>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_27 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_28 = V_1;
+		int64_t L_29 = L_28.___right;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_30 = V_1;
+		int64_t L_31 = L_30.___top;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_32), ((int64_t)il2cpp_codegen_add(L_29, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_subtract(L_31, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_27);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_27, L_32, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4765>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_33 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_34 = V_1;
+		int64_t L_35 = L_34.___left;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_36 = V_1;
+		int64_t L_37 = L_36.___top;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_38), ((int64_t)il2cpp_codegen_subtract(L_35, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_subtract(L_37, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_33);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_33, L_38, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4767>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_39 = V_0;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_40 = V_2;
+		NullCheck(L_39);
+		bool L_41;
+		L_41 = ClipperBase_AddPath_m571AE806B0CA626921A409161C7C3BF663DAC4AD(L_39, L_40, 0, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4768>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_42 = V_0;
+		NullCheck(L_42);
+		Clipper_set_ReverseSolution_m6A81B80AA04C4EA76148760B57CBE19D7CC47BC9_inline(L_42, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4769>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_43 = V_0;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** L_44 = ___0_solution;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_45 = *((List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248**)L_44);
+		NullCheck(L_43);
+		bool L_46;
+		L_46 = Clipper_Execute_m0588BABC6244A805AFE4D184B2C56B42116A3351(L_43, 1, L_45, 3, 3, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4770>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** L_47 = ___0_solution;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_48 = *((List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248**)L_47);
+		NullCheck(L_48);
+		int32_t L_49;
+		L_49 = List_1_get_Count_mF201A0BE94F07BE57EAA6E40E55A96AAA44BB52C_inline(L_48, List_1_get_Count_mF201A0BE94F07BE57EAA6E40E55A96AAA44BB52C_RuntimeMethod_var);
+		if ((((int32_t)L_49) <= ((int32_t)0)))
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4770>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248** L_50 = ___0_solution;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_51 = *((List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248**)L_50);
+		NullCheck(L_51);
+		List_1_RemoveAt_mB4B6F6E95CBD6E2FD479C5CB5BF5E84EB540017A(L_51, 0, List_1_RemoveAt_mB4B6F6E95CBD6E2FD479C5CB5BF5E84EB540017A_RuntimeMethod_var);
+	}
+
+IL_0101:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4772>
+		return;
+	}
+}
+// Method Definition Index: 54126
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_Execute_mF24F15661CAEC5B913BFC1AA0D7FA911EC111B44 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** ___0_solution, double ___1_delta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_m87127FC9DC27F00F3D414D6DCB5AD407BC0C61C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Item_mD30E503740C525041CD379AE19F23A5D8BA9E910_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* V_0 = NULL;
+	IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	List_1_tEE826735E783D159E78423CA05EDB5A468147FED* V_2 = NULL;
+	PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4777>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_0 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_1 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_0);
+		NullCheck(L_1);
+		PolyTree_Clear_m9900E82AA71DD3294FDCBE98320F0C194ADF98EC(L_1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4778>
+		ClipperOffset_FixOrientations_m5B5156DDEF8419DF91322799D8B3EC9228729FF4(__this, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4779>
+		double L_2 = ___1_delta;
+		ClipperOffset_DoOffset_m155D8A6F904EE7C0964DAA9375EEB2F01C470623(__this, L_2, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4782>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_3 = (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12*)il2cpp_codegen_object_new(Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12_il2cpp_TypeInfo_var);
+		Clipper__ctor_mD5E00729ED83E32E2EDEED3CE31A178EC0B6C8BA(L_3, 0, NULL);
+		V_0 = L_3;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4783>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_4 = V_0;
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_5 = __this->___m_destPolys;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = ClipperBase_AddPaths_mEAF157D2E8DD985439F77879FFA8DABB1AD974C3(L_4, L_5, 0, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4784>
+		double L_7 = ___1_delta;
+		if ((!(((double)L_7) > ((double)(0.0)))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4786>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4787>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_8 = V_0;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_9 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_10 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_9);
+		NullCheck(L_8);
+		bool L_11;
+		L_11 = Clipper_Execute_m8CC0B6329FF7FD987F5E91DDF22FD930EE4A630C(L_8, 1, L_10, 2, 2, NULL);
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4791>
+		List_1_tE1BA670B6635AF74F6ED6335109D3FA724D02248* L_12 = __this->___m_destPolys;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_13;
+		L_13 = ClipperBase_GetBounds_m5B9D3706DA78555E641C761497CF7D6A66527091(L_12, NULL);
+		V_1 = L_13;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4792>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_14 = (List_1_tEE826735E783D159E78423CA05EDB5A468147FED*)il2cpp_codegen_object_new(List_1_tEE826735E783D159E78423CA05EDB5A468147FED_il2cpp_TypeInfo_var);
+		List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037(L_14, 4, List_1__ctor_mFE2ABDF06F25A01B7E78BBCB33A0FF9010AC6037_RuntimeMethod_var);
+		V_2 = L_14;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4794>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_15 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_16 = V_1;
+		int64_t L_17 = L_16.___left;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_18 = V_1;
+		int64_t L_19 = L_18.___bottom;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_20), ((int64_t)il2cpp_codegen_subtract(L_17, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_add(L_19, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_15);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_15, L_20, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4795>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_21 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_22 = V_1;
+		int64_t L_23 = L_22.___right;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_24 = V_1;
+		int64_t L_25 = L_24.___bottom;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_26), ((int64_t)il2cpp_codegen_add(L_23, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_add(L_25, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_21);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_21, L_26, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4796>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_27 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_28 = V_1;
+		int64_t L_29 = L_28.___right;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_30 = V_1;
+		int64_t L_31 = L_30.___top;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_32), ((int64_t)il2cpp_codegen_add(L_29, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_subtract(L_31, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_27);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_27, L_32, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4797>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_33 = V_2;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_34 = V_1;
+		int64_t L_35 = L_34.___left;
+		IntRect_t4CA05FE1FA16DB0589636771C6AB8E5B0C9D7F59 L_36 = V_1;
+		int64_t L_37 = L_36.___top;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_38), ((int64_t)il2cpp_codegen_subtract(L_35, ((int64_t)((int32_t)10)))), ((int64_t)il2cpp_codegen_subtract(L_37, ((int64_t)((int32_t)10)))), NULL);
+		NullCheck(L_33);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_33, L_38, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4799>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_39 = V_0;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_40 = V_2;
+		NullCheck(L_39);
+		bool L_41;
+		L_41 = ClipperBase_AddPath_m571AE806B0CA626921A409161C7C3BF663DAC4AD(L_39, L_40, 0, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4800>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_42 = V_0;
+		NullCheck(L_42);
+		Clipper_set_ReverseSolution_m6A81B80AA04C4EA76148760B57CBE19D7CC47BC9_inline(L_42, (bool)1, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4801>
+		Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* L_43 = V_0;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_44 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_45 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_44);
+		NullCheck(L_43);
+		bool L_46;
+		L_46 = Clipper_Execute_m8CC0B6329FF7FD987F5E91DDF22FD930EE4A630C(L_43, 1, L_45, 3, 3, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4803>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_47 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_48 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_47);
+		NullCheck(L_48);
+		int32_t L_49;
+		L_49 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_48, NULL);
+		if ((!(((uint32_t)L_49) == ((uint32_t)1))))
+		{
+			goto IL_0188;
+		}
+	}
+	{
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_50 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_51 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_50);
+		NullCheck(L_51);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_52;
+		L_52 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_51, NULL);
+		NullCheck(L_52);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_53;
+		L_53 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_52, 0, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		NullCheck(L_53);
+		int32_t L_54;
+		L_54 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_53, NULL);
+		if ((((int32_t)L_54) <= ((int32_t)0)))
+		{
+			goto IL_0188;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4805>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_55 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_56 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_55);
+		NullCheck(L_56);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_57;
+		L_57 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_56, NULL);
+		NullCheck(L_57);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_58;
+		L_58 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_57, 0, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		V_3 = L_58;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4806>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_59 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_60 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_59);
+		NullCheck(L_60);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_61;
+		L_61 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_60, NULL);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_62 = V_3;
+		NullCheck(L_62);
+		int32_t L_63;
+		L_63 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_62, NULL);
+		NullCheck(L_61);
+		List_1_set_Capacity_m87127FC9DC27F00F3D414D6DCB5AD407BC0C61C8(L_61, L_63, List_1_set_Capacity_m87127FC9DC27F00F3D414D6DCB5AD407BC0C61C8_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4807>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_64 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_65 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_64);
+		NullCheck(L_65);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_66;
+		L_66 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_65, NULL);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_67 = V_3;
+		NullCheck(L_67);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_68;
+		L_68 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_67, NULL);
+		NullCheck(L_68);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_69;
+		L_69 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_68, 0, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		NullCheck(L_66);
+		List_1_set_Item_mD30E503740C525041CD379AE19F23A5D8BA9E910(L_66, 0, L_69, List_1_set_Item_mD30E503740C525041CD379AE19F23A5D8BA9E910_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4808>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_70 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_71 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_70);
+		NullCheck(L_71);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_72;
+		L_72 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_71, NULL);
+		NullCheck(L_72);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_73;
+		L_73 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_72, 0, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_74 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_75 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_74);
+		NullCheck(L_73);
+		L_73->___m_Parent = L_75;
+		Il2CppCodeGenWriteBarrier((void**)(&L_73->___m_Parent), (void*)L_75);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4809>
+		V_4 = 1;
+		goto IL_017d;
+	}
+
+IL_0163:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4810>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_76 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_77 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_76);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_78 = V_3;
+		NullCheck(L_78);
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_79;
+		L_79 = PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline(L_78, NULL);
+		int32_t L_80 = V_4;
+		NullCheck(L_79);
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_81;
+		L_81 = List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9(L_79, L_80, List_1_get_Item_m183A1ED29A9B7394B11548EA7715CAAF2E9749C9_RuntimeMethod_var);
+		NullCheck(L_77);
+		PolyNode_AddChild_mC381C121A4713852BEF3F4783E36B29EBF6ECFA8(L_77, L_81, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4809>
+		int32_t L_82 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_82, 1));
+	}
+
+IL_017d:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4809>
+		int32_t L_83 = V_4;
+		PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* L_84 = V_3;
+		NullCheck(L_84);
+		int32_t L_85;
+		L_85 = PolyNode_get_ChildCount_m53B15AD47B8ACE8A130E2553B20473831A93EECF(L_84, NULL);
+		if ((((int32_t)L_83) < ((int32_t)L_85)))
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0188:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4813>
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B** L_86 = ___0_solution;
+		PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B* L_87 = *((PolyTree_t4940C8CD657B28B5F66CA19C7458B0FA4947700B**)L_86);
+		NullCheck(L_87);
+		PolyTree_Clear_m9900E82AA71DD3294FDCBE98320F0C194ADF98EC(L_87, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4815>
+		return;
+	}
+}
+// Method Definition Index: 54127
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_OffsetPoint_mB78BE729A75252D7D9D395462CFB1372EE6BA51E (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t* ___1_k, int32_t ___2_jointype, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4821>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_0 = __this->___m_normals;
+		int32_t* L_1 = ___1_k;
+		int32_t L_2 = *((int32_t*)L_1);
+		NullCheck(L_0);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_3;
+		L_3 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_0, L_2, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_4 = L_3.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_5 = __this->___m_normals;
+		int32_t L_6 = ___0_j;
+		NullCheck(L_5);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_7;
+		L_7 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_5, L_6, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_8 = L_7.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_9 = __this->___m_normals;
+		int32_t L_10 = ___0_j;
+		NullCheck(L_9);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_11;
+		L_11 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_9, L_10, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_12 = L_11.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_13 = __this->___m_normals;
+		int32_t* L_14 = ___1_k;
+		int32_t L_15 = *((int32_t*)L_14);
+		NullCheck(L_13);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_16;
+		L_16 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_13, L_15, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_17 = L_16.___Y;
+		__this->___m_sinA = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(L_4, L_8)), ((double)il2cpp_codegen_multiply(L_12, L_17))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4823>
+		double L_18 = __this->___m_sinA;
+		double L_19 = __this->___m_delta;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_20;
+		L_20 = fabs(((double)il2cpp_codegen_multiply(L_18, L_19)));
+		if ((!(((double)L_20) < ((double)(1.0)))))
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4826>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_21 = __this->___m_normals;
+		int32_t* L_22 = ___1_k;
+		int32_t L_23 = *((int32_t*)L_22);
+		NullCheck(L_21);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_24;
+		L_24 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_21, L_23, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_25 = L_24.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_26 = __this->___m_normals;
+		int32_t L_27 = ___0_j;
+		NullCheck(L_26);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_28;
+		L_28 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_26, L_27, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_29 = L_28.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_30 = __this->___m_normals;
+		int32_t L_31 = ___0_j;
+		NullCheck(L_30);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_32;
+		L_32 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_30, L_31, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_33 = L_32.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_34 = __this->___m_normals;
+		int32_t* L_35 = ___1_k;
+		int32_t L_36 = *((int32_t*)L_35);
+		NullCheck(L_34);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_37;
+		L_37 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_34, L_36, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_38 = L_37.___Y;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4827>
+		if ((!(((double)((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_25, L_29)), ((double)il2cpp_codegen_multiply(L_33, L_38))))) > ((double)(0.0)))))
+		{
+			goto IL_017b;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4829>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4830>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_39 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_40 = __this->___m_srcPoly;
+		int32_t L_41 = ___0_j;
+		NullCheck(L_40);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_42;
+		L_42 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_40, L_41, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_43 = L_42.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_44 = __this->___m_normals;
+		int32_t* L_45 = ___1_k;
+		int32_t L_46 = *((int32_t*)L_45);
+		NullCheck(L_44);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_47;
+		L_47 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_44, L_46, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_48 = L_47.___X;
+		double L_49 = __this->___m_delta;
+		int64_t L_50;
+		L_50 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_43), ((double)il2cpp_codegen_multiply(L_48, L_49)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_51 = __this->___m_srcPoly;
+		int32_t L_52 = ___0_j;
+		NullCheck(L_51);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_53;
+		L_53 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_51, L_52, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_54 = L_53.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_55 = __this->___m_normals;
+		int32_t* L_56 = ___1_k;
+		int32_t L_57 = *((int32_t*)L_56);
+		NullCheck(L_55);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_58;
+		L_58 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_55, L_57, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_59 = L_58.___Y;
+		double L_60 = __this->___m_delta;
+		int64_t L_61;
+		L_61 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_54), ((double)il2cpp_codegen_multiply(L_59, L_60)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_62;
+		memset((&L_62), 0, sizeof(L_62));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_62), L_50, L_61, NULL);
+		NullCheck(L_39);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_39, L_62, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4831>
+		return;
+	}
+
+IL_0139:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4835>
+		double L_63 = __this->___m_sinA;
+		if ((!(((double)L_63) > ((double)(1.0)))))
+		{
+			goto IL_015b;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4835>
+		__this->___m_sinA = (1.0);
+		goto IL_017b;
+	}
+
+IL_015b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4836>
+		double L_64 = __this->___m_sinA;
+		if ((!(((double)L_64) < ((double)(-1.0)))))
+		{
+			goto IL_017b;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4836>
+		__this->___m_sinA = (-1.0);
+	}
+
+IL_017b:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4838>
+		double L_65 = __this->___m_sinA;
+		double L_66 = __this->___m_delta;
+		if ((!(((double)((double)il2cpp_codegen_multiply(L_65, L_66))) < ((double)(0.0)))))
+		{
+			goto IL_0294;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4840>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4841>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_67 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_68 = __this->___m_srcPoly;
+		int32_t L_69 = ___0_j;
+		NullCheck(L_68);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_70;
+		L_70 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_68, L_69, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_71 = L_70.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_72 = __this->___m_normals;
+		int32_t* L_73 = ___1_k;
+		int32_t L_74 = *((int32_t*)L_73);
+		NullCheck(L_72);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_75;
+		L_75 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_72, L_74, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_76 = L_75.___X;
+		double L_77 = __this->___m_delta;
+		int64_t L_78;
+		L_78 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_71), ((double)il2cpp_codegen_multiply(L_76, L_77)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_79 = __this->___m_srcPoly;
+		int32_t L_80 = ___0_j;
+		NullCheck(L_79);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_81;
+		L_81 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_79, L_80, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_82 = L_81.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_83 = __this->___m_normals;
+		int32_t* L_84 = ___1_k;
+		int32_t L_85 = *((int32_t*)L_84);
+		NullCheck(L_83);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_86;
+		L_86 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_83, L_85, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_87 = L_86.___Y;
+		double L_88 = __this->___m_delta;
+		int64_t L_89;
+		L_89 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_82), ((double)il2cpp_codegen_multiply(L_87, L_88)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_90;
+		memset((&L_90), 0, sizeof(L_90));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_90), L_78, L_89, NULL);
+		NullCheck(L_67);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_67, L_90, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4842>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_91 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_92 = __this->___m_srcPoly;
+		int32_t L_93 = ___0_j;
+		NullCheck(L_92);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_94;
+		L_94 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_92, L_93, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		NullCheck(L_91);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_91, L_94, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4843>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4844>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_95 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_96 = __this->___m_srcPoly;
+		int32_t L_97 = ___0_j;
+		NullCheck(L_96);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_98;
+		L_98 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_96, L_97, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_99 = L_98.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_100 = __this->___m_normals;
+		int32_t L_101 = ___0_j;
+		NullCheck(L_100);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_102;
+		L_102 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_100, L_101, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_103 = L_102.___X;
+		double L_104 = __this->___m_delta;
+		int64_t L_105;
+		L_105 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_99), ((double)il2cpp_codegen_multiply(L_103, L_104)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_106 = __this->___m_srcPoly;
+		int32_t L_107 = ___0_j;
+		NullCheck(L_106);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_108;
+		L_108 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_106, L_107, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_109 = L_108.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_110 = __this->___m_normals;
+		int32_t L_111 = ___0_j;
+		NullCheck(L_110);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_112;
+		L_112 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_110, L_111, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_113 = L_112.___Y;
+		double L_114 = __this->___m_delta;
+		int64_t L_115;
+		L_115 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_109), ((double)il2cpp_codegen_multiply(L_113, L_114)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_116;
+		memset((&L_116), 0, sizeof(L_116));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_116), L_105, L_115, NULL);
+		NullCheck(L_95);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_95, L_116, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		goto IL_0333;
+	}
+
+IL_0294:
+	{
+		int32_t L_117 = ___2_jointype;
+		switch (L_117)
+		{
+			case 0:
+			{
+				goto IL_031f;
+			}
+			case 1:
+			{
+				goto IL_032a;
+			}
+			case 2:
+			{
+				goto IL_02ab;
+			}
+		}
+	}
+	{
+		goto IL_0333;
+	}
+
+IL_02ab:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4851>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4852>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_118 = __this->___m_normals;
+		int32_t L_119 = ___0_j;
+		NullCheck(L_118);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_120;
+		L_120 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_118, L_119, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_121 = L_120.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_122 = __this->___m_normals;
+		int32_t* L_123 = ___1_k;
+		int32_t L_124 = *((int32_t*)L_123);
+		NullCheck(L_122);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_125;
+		L_125 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_122, L_124, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_126 = L_125.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_127 = __this->___m_normals;
+		int32_t L_128 = ___0_j;
+		NullCheck(L_127);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_129;
+		L_129 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_127, L_128, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_130 = L_129.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_131 = __this->___m_normals;
+		int32_t* L_132 = ___1_k;
+		int32_t L_133 = *((int32_t*)L_132);
+		NullCheck(L_131);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_134;
+		L_134 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_131, L_133, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_135 = L_134.___Y;
+		V_0 = ((double)il2cpp_codegen_add((1.0), ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_121, L_126)), ((double)il2cpp_codegen_multiply(L_130, L_135))))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4853>
+		double L_136 = V_0;
+		double L_137 = __this->___m_miterLim;
+		if ((!(((double)L_136) >= ((double)L_137))))
+		{
+			goto IL_0314;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4853>
+		int32_t L_138 = ___0_j;
+		int32_t* L_139 = ___1_k;
+		int32_t L_140 = *((int32_t*)L_139);
+		double L_141 = V_0;
+		ClipperOffset_DoMiter_m030B5A4DBDA070B5AA736E03E18E2CE122DB60D8(__this, L_138, L_140, L_141, NULL);
+		goto IL_0333;
+	}
+
+IL_0314:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4853>
+		int32_t L_142 = ___0_j;
+		int32_t* L_143 = ___1_k;
+		int32_t L_144 = *((int32_t*)L_143);
+		ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81(__this, L_142, L_144, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4854>
+		goto IL_0333;
+	}
+
+IL_031f:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4856>
+		int32_t L_145 = ___0_j;
+		int32_t* L_146 = ___1_k;
+		int32_t L_147 = *((int32_t*)L_146);
+		ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81(__this, L_145, L_147, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4856>
+		goto IL_0333;
+	}
+
+IL_032a:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4857>
+		int32_t L_148 = ___0_j;
+		int32_t* L_149 = ___1_k;
+		int32_t L_150 = *((int32_t*)L_149);
+		ClipperOffset_DoRound_mF6371340BC5AEF66CBF0035EE9B5E89A31E839EA(__this, L_148, L_150, NULL);
+	}
+
+IL_0333:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4859>
+		int32_t* L_151 = ___1_k;
+		int32_t L_152 = ___0_j;
+		*((int32_t*)L_151) = (int32_t)L_152;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4860>
+		return;
+	}
+}
+// Method Definition Index: 54128
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoSquare_mF162E12C77689C2AF9F705B09301C4326230EA81 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4865>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4866>
+		double L_0 = __this->___m_sinA;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_1 = __this->___m_normals;
+		int32_t L_2 = ___1_k;
+		NullCheck(L_1);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_3;
+		L_3 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_1, L_2, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_4 = L_3.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_5 = __this->___m_normals;
+		int32_t L_6 = ___0_j;
+		NullCheck(L_5);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_7;
+		L_7 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_5, L_6, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_8 = L_7.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_9 = __this->___m_normals;
+		int32_t L_10 = ___1_k;
+		NullCheck(L_9);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_11;
+		L_11 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_9, L_10, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_12 = L_11.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_13 = __this->___m_normals;
+		int32_t L_14 = ___0_j;
+		NullCheck(L_13);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_15;
+		L_15 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_13, L_14, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_16 = L_15.___Y;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_17;
+		L_17 = atan2(L_0, ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_4, L_8)), ((double)il2cpp_codegen_multiply(L_12, L_16)))));
+		double L_18;
+		L_18 = tan(((double)(L_17/(4.0))));
+		V_0 = L_18;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4867>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4868>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4869>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_19 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_20 = __this->___m_srcPoly;
+		int32_t L_21 = ___0_j;
+		NullCheck(L_20);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_22;
+		L_22 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_20, L_21, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_23 = L_22.___X;
+		double L_24 = __this->___m_delta;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_25 = __this->___m_normals;
+		int32_t L_26 = ___1_k;
+		NullCheck(L_25);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_27;
+		L_27 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_25, L_26, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_28 = L_27.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_29 = __this->___m_normals;
+		int32_t L_30 = ___1_k;
+		NullCheck(L_29);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_31;
+		L_31 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_29, L_30, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_32 = L_31.___Y;
+		double L_33 = V_0;
+		int64_t L_34;
+		L_34 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_23), ((double)il2cpp_codegen_multiply(L_24, ((double)il2cpp_codegen_subtract(L_28, ((double)il2cpp_codegen_multiply(L_32, L_33)))))))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_35 = __this->___m_srcPoly;
+		int32_t L_36 = ___0_j;
+		NullCheck(L_35);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_37;
+		L_37 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_35, L_36, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_38 = L_37.___Y;
+		double L_39 = __this->___m_delta;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_40 = __this->___m_normals;
+		int32_t L_41 = ___1_k;
+		NullCheck(L_40);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_42;
+		L_42 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_40, L_41, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_43 = L_42.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_44 = __this->___m_normals;
+		int32_t L_45 = ___1_k;
+		NullCheck(L_44);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_46;
+		L_46 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_44, L_45, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_47 = L_46.___X;
+		double L_48 = V_0;
+		int64_t L_49;
+		L_49 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_38), ((double)il2cpp_codegen_multiply(L_39, ((double)il2cpp_codegen_add(L_43, ((double)il2cpp_codegen_multiply(L_47, L_48)))))))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_50;
+		memset((&L_50), 0, sizeof(L_50));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_50), L_34, L_49, NULL);
+		NullCheck(L_19);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_19, L_50, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4870>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4871>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4872>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_51 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_52 = __this->___m_srcPoly;
+		int32_t L_53 = ___0_j;
+		NullCheck(L_52);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_54;
+		L_54 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_52, L_53, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_55 = L_54.___X;
+		double L_56 = __this->___m_delta;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_57 = __this->___m_normals;
+		int32_t L_58 = ___0_j;
+		NullCheck(L_57);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_59;
+		L_59 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_57, L_58, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_60 = L_59.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_61 = __this->___m_normals;
+		int32_t L_62 = ___0_j;
+		NullCheck(L_61);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_63;
+		L_63 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_61, L_62, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_64 = L_63.___Y;
+		double L_65 = V_0;
+		int64_t L_66;
+		L_66 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_55), ((double)il2cpp_codegen_multiply(L_56, ((double)il2cpp_codegen_add(L_60, ((double)il2cpp_codegen_multiply(L_64, L_65)))))))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_67 = __this->___m_srcPoly;
+		int32_t L_68 = ___0_j;
+		NullCheck(L_67);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_69;
+		L_69 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_67, L_68, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_70 = L_69.___Y;
+		double L_71 = __this->___m_delta;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_72 = __this->___m_normals;
+		int32_t L_73 = ___0_j;
+		NullCheck(L_72);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_74;
+		L_74 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_72, L_73, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_75 = L_74.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_76 = __this->___m_normals;
+		int32_t L_77 = ___0_j;
+		NullCheck(L_76);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_78;
+		L_78 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_76, L_77, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_79 = L_78.___X;
+		double L_80 = V_0;
+		int64_t L_81;
+		L_81 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_70), ((double)il2cpp_codegen_multiply(L_71, ((double)il2cpp_codegen_subtract(L_75, ((double)il2cpp_codegen_multiply(L_79, L_80)))))))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_82;
+		memset((&L_82), 0, sizeof(L_82));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_82), L_66, L_81, NULL);
+		NullCheck(L_51);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_51, L_82, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4873>
+		return;
+	}
+}
+// Method Definition Index: 54129
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoMiter_m030B5A4DBDA070B5AA736E03E18E2CE122DB60D8 (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, double ___2_r, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4878>
+		double L_0 = __this->___m_delta;
+		double L_1 = ___2_r;
+		V_0 = ((double)(L_0/L_1));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4879>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4880>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_2 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_3 = __this->___m_srcPoly;
+		int32_t L_4 = ___0_j;
+		NullCheck(L_3);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_5;
+		L_5 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_3, L_4, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_6 = L_5.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_7 = __this->___m_normals;
+		int32_t L_8 = ___1_k;
+		NullCheck(L_7);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_9;
+		L_9 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_7, L_8, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_10 = L_9.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_11 = __this->___m_normals;
+		int32_t L_12 = ___0_j;
+		NullCheck(L_11);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_13;
+		L_13 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_11, L_12, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_14 = L_13.___X;
+		double L_15 = V_0;
+		int64_t L_16;
+		L_16 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_6), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_add(L_10, L_14)), L_15)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_17 = __this->___m_srcPoly;
+		int32_t L_18 = ___0_j;
+		NullCheck(L_17);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_19;
+		L_19 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_17, L_18, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_20 = L_19.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_21 = __this->___m_normals;
+		int32_t L_22 = ___1_k;
+		NullCheck(L_21);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_23;
+		L_23 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_21, L_22, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_24 = L_23.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_25 = __this->___m_normals;
+		int32_t L_26 = ___0_j;
+		NullCheck(L_25);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_27;
+		L_27 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_25, L_26, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_28 = L_27.___Y;
+		double L_29 = V_0;
+		int64_t L_30;
+		L_30 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_20), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_add(L_24, L_28)), L_29)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_31), L_16, L_30, NULL);
+		NullCheck(L_2);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_2, L_31, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4881>
+		return;
+	}
+}
+// Method Definition Index: 54130
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperOffset_DoRound_mF6371340BC5AEF66CBF0035EE9B5E89A31E839EA (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, int32_t ___0_j, int32_t ___1_k, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	int32_t V_1 = 0;
+	double V_2 = 0.0;
+	double V_3 = 0.0;
+	int32_t V_4 = 0;
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4886>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4887>
+		double L_0 = __this->___m_sinA;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_1 = __this->___m_normals;
+		int32_t L_2 = ___1_k;
+		NullCheck(L_1);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_3;
+		L_3 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_1, L_2, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_4 = L_3.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_5 = __this->___m_normals;
+		int32_t L_6 = ___0_j;
+		NullCheck(L_5);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_7;
+		L_7 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_5, L_6, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_8 = L_7.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_9 = __this->___m_normals;
+		int32_t L_10 = ___1_k;
+		NullCheck(L_9);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_11;
+		L_11 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_9, L_10, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_12 = L_11.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_13 = __this->___m_normals;
+		int32_t L_14 = ___0_j;
+		NullCheck(L_13);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_15;
+		L_15 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_13, L_14, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_16 = L_15.___Y;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_17;
+		L_17 = atan2(L_0, ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_4, L_8)), ((double)il2cpp_codegen_multiply(L_12, L_16)))));
+		V_0 = L_17;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4888>
+		double L_18 = __this->___m_StepsPerRad;
+		double L_19 = V_0;
+		double L_20;
+		L_20 = fabs(L_19);
+		int64_t L_21;
+		L_21 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_multiply(L_18, L_20)), NULL);
+		int32_t L_22;
+		L_22 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)L_21), 1, NULL);
+		V_1 = L_22;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4890>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_23 = __this->___m_normals;
+		int32_t L_24 = ___1_k;
+		NullCheck(L_23);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_25;
+		L_25 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_23, L_24, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_26 = L_25.___X;
+		V_2 = L_26;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4890>
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_27 = __this->___m_normals;
+		int32_t L_28 = ___1_k;
+		NullCheck(L_27);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_29;
+		L_29 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_27, L_28, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_30 = L_29.___Y;
+		V_3 = L_30;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4891>
+		V_4 = 0;
+		goto IL_0110;
+	}
+
+IL_0096:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4893>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4894>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4895>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_31 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_32 = __this->___m_srcPoly;
+		int32_t L_33 = ___0_j;
+		NullCheck(L_32);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_34;
+		L_34 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_32, L_33, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_35 = L_34.___X;
+		double L_36 = V_2;
+		double L_37 = __this->___m_delta;
+		int64_t L_38;
+		L_38 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_35), ((double)il2cpp_codegen_multiply(L_36, L_37)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_39 = __this->___m_srcPoly;
+		int32_t L_40 = ___0_j;
+		NullCheck(L_39);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_41;
+		L_41 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_39, L_40, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_42 = L_41.___Y;
+		double L_43 = V_3;
+		double L_44 = __this->___m_delta;
+		int64_t L_45;
+		L_45 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_42), ((double)il2cpp_codegen_multiply(L_43, L_44)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_46;
+		memset((&L_46), 0, sizeof(L_46));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_46), L_38, L_45, NULL);
+		NullCheck(L_31);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_31, L_46, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4896>
+		double L_47 = V_2;
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4897>
+		double L_48 = V_2;
+		double L_49 = __this->___m_cos;
+		double L_50 = __this->___m_sin;
+		double L_51 = V_3;
+		V_2 = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(L_48, L_49)), ((double)il2cpp_codegen_multiply(L_50, L_51))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4898>
+		double L_52 = __this->___m_sin;
+		double L_53 = V_3;
+		double L_54 = __this->___m_cos;
+		V_3 = ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_47, L_52)), ((double)il2cpp_codegen_multiply(L_53, L_54))));
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4891>
+		int32_t L_55 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+	}
+
+IL_0110:
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4891>
+		int32_t L_56 = V_4;
+		int32_t L_57 = V_1;
+		if ((((int32_t)L_56) < ((int32_t)L_57)))
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4900>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4901>
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4902>
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_58 = __this->___m_destPoly;
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_59 = __this->___m_srcPoly;
+		int32_t L_60 = ___0_j;
+		NullCheck(L_59);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_61;
+		L_61 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_59, L_60, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_62 = L_61.___X;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_63 = __this->___m_normals;
+		int32_t L_64 = ___0_j;
+		NullCheck(L_63);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_65;
+		L_65 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_63, L_64, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_66 = L_65.___X;
+		double L_67 = __this->___m_delta;
+		int64_t L_68;
+		L_68 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_62), ((double)il2cpp_codegen_multiply(L_66, L_67)))), NULL);
+		List_1_tEE826735E783D159E78423CA05EDB5A468147FED* L_69 = __this->___m_srcPoly;
+		int32_t L_70 = ___0_j;
+		NullCheck(L_69);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_71;
+		L_71 = List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26(L_69, L_70, List_1_get_Item_m61B440B015DF64EFCD45557E56D3F9FD28FF1B26_RuntimeMethod_var);
+		int64_t L_72 = L_71.___Y;
+		List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* L_73 = __this->___m_normals;
+		int32_t L_74 = ___0_j;
+		NullCheck(L_73);
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_75;
+		L_75 = List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F(L_73, L_74, List_1_get_Item_m672515E61F3F32EB57FD2F9158063F5469D4A14F_RuntimeMethod_var);
+		double L_76 = L_75.___Y;
+		double L_77 = __this->___m_delta;
+		int64_t L_78;
+		L_78 = ClipperOffset_Round_m2E73A0C361AE8EB5805B81D589B472349F6EA00C(((double)il2cpp_codegen_add(((double)L_72), ((double)il2cpp_codegen_multiply(L_76, L_77)))), NULL);
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_79;
+		memset((&L_79), 0, sizeof(L_79));
+		IntPoint__ctor_m0708C9D43AEBAEA44E6AEE4A49735CF1CA15F7E6((&L_79), L_68, L_78, NULL);
+		NullCheck(L_58);
+		List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_inline(L_58, L_79, List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_RuntimeMethod_var);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4903>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 54131
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperException__ctor_m697097283C0CD5542773FA13B766E3D9D8921157 (ClipperException_tFCB5B9EE82296BD4BB84054752206E964DAD5B9B* __this, String_t* ___0_description, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4909>
+		String_t* L_0 = ___0_description;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(__this, L_0, NULL);
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4909>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 54116
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClipperOffset_set_MiterLimit_m35C3021CA93C38691B25EBFA20D051619261556F_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4445>
+		double L_0 = ___0_value;
+		__this->___U3CMiterLimitU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 54114
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClipperOffset_set_ArcTolerance_m2FA01119E9EE717A92431556902E36C0EC9ECC57_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4444>
+		double L_0 = ___0_value;
+		__this->___U3CArcToleranceU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 53929
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* PolyNode_get_Childs_mAD46AFFD93E14D6808E4FDC696489F923DBC6DF4_inline (PolyNode_t54D6D90D587CDF5B8AA8C5838B748F562507F73B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:189>
+		List_1_t85CD5C3111BCF8A23646CADA08353CF798C035F8* L_0 = __this->___m_Childs;
+		return L_0;
+	}
+}
+// Method Definition Index: 54115
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ClipperOffset_get_MiterLimit_mFCF048403D8DEF004F7379A6B150DA5263112DF0_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4445>
+		double L_0 = __this->___U3CMiterLimitU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 54113
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ClipperOffset_get_ArcTolerance_m6212FFCA8D29999257C82589EA75913012F13BAC_inline (ClipperOffset_tFE5EE1E9A1B5994D35784C1107CB29076A37A388* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:4444>
+		double L_0 = __this->___U3CArcToleranceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 54009
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Clipper_set_ReverseSolution_m6A81B80AA04C4EA76148760B57CBE19D7CC47BC9_inline (Clipper_t90DF7E1479197F8F90E49A8DB3015B822622DD12* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/UNITY/UNITY - PROJECTS  - UNITY2019/AssetStore_HomeDesigner_Merged/Assets/Exoa/HomeDesigner/Packages/Toolkit/Runtime/ClipperLib/Clipper.cs:1436>
+		bool L_0 = ___0_value;
+		__this->___U3CReverseSolutionU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 10828
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 10811
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m7B2406536078E038E7AB33B40C37EBA5CD722D31_gshared_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 10821
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m38FA85B2DF6EC9B23BC5101CCFFB96CCAE5DBF6F_gshared_inline (List_1_tEE826735E783D159E78423CA05EDB5A468147FED* __this, IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 ___0_item, const RuntimeMethod* method) 
+{
+	IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		IntPointU5BU5D_t0A1A7292E31D4334E03A1B279F3641BDFCFA3C9A* L_6 = V_0;
+		int32_t L_7 = V_1;
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		IntPoint_tB6C7C2E45DDA53AFE9E1FD3BE32B5CD1BED41DB5 L_9 = ___0_item;
+		List_1_AddWithResize_mE82572317B6F1C3B08904EBF1AFF00E0E1A0276D(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 10871
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 10821
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 10828
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m93B7E6A8C05E2C4D0CACE014A2E9EA727F374CF4_gshared_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 10821
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m44AAD74A66FD7185607BC696F1F5B12848026AED_gshared_inline (List_1_t14D52EA4C0E49505629E12A04B1FD9771218190E* __this, DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B ___0_item, const RuntimeMethod* method) 
+{
+	DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		DoublePointU5BU5D_tA34B14E49A9517A27D633EB43A710CBCFF24D140* L_6 = V_0;
+		int32_t L_7 = V_1;
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		DoublePoint_tF29579A77AD514A9C91D242AB26BC071CB4E9A3B L_9 = ___0_item;
+		List_1_AddWithResize_mAB22A911FE4CFD8AD552F49E073F36746923A46B(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 10811
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
