@@ -66,25 +66,40 @@ jobs:
         /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST"
         echo "Set version to ${{ inputs.app_version }} (build ${{ github.run_number }})"
 
+    - name: Verify usymtool binaries exist
+      run: |
+        test -f build/iOS/usymtoolarm64 || (echo "ERROR: usymtoolarm64 not found"; exit 1)
+        ls -lah build/iOS/usymtool* || echo "No usymtool files found"
+
     - name: Patch usymtool path for macOS CI
       run: |
         chmod +x build/iOS/usymtool build/iOS/usymtoolarm64 2>/dev/null || true
         PBXPROJ="build/iOS/Unity-iPhone.xcodeproj/project.pbxproj"
         python3 - "$PBXPROJ" << 'PYEOF'
         import sys
+        import re
         path = sys.argv[1]
         with open(path, 'r', encoding='utf-8') as f:
             content = f.read()
-        old = r'--usymtool-path=\"C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Tools\\usymtool.exe\"'
-        new = r'--usymtool-path=\"$PROJECT_DIR/usymtoolarm64\"'
-        patched = content.replace(old, new)
+        old_windows = r'--usymtool-path=\"C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Tools\\usymtool.exe\"'
+        new_path = r'--usymtool-path=\"$PROJECT_DIR/usymtoolarm64\"'
+        patched = content.replace(old_windows, new_path)
+        patched = re.sub(
+            r'--usymtool-path=\\"[^"]*usymtool[^"]*\\"',
+            new_path,
+            patched
+        )
         if patched == content:
             print("WARNING: usymtool path not found — no patch applied")
+            sys.exit(1)
         else:
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(patched)
             print("Patched usymtool path to $PROJECT_DIR/usymtoolarm64")
         PYEOF
+
+    - name: Clean Xcode build cache
+      run: rm -rf ~/Library/Developer/Xcode/DerivedData/Unity-iPhone*
 
     - name: Build Xcode archive
       run: |
@@ -97,7 +112,8 @@ jobs:
           CODE_SIGN_STYLE=Manual \
           DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }} \
           CODE_SIGN_IDENTITY="Apple Distribution" \
-          PROVISIONING_PROFILE_SPECIFIER_APP="${{ secrets.IOS_PROFILE_NAME }}"
+          PROVISIONING_PROFILE_SPECIFIER_APP="${{ secrets.IOS_PROFILE_NAME }}" \
+          GCC_SYMBOLS_PRIVATE_EXTERNAL=YES
 
     - name: Create ExportOptions.plist
       run: |
