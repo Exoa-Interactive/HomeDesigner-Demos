@@ -3,6 +3,9 @@ name: iOS Resign & Upload HomeDesignerSuite
 on:
   workflow_dispatch:
     inputs:
+      ipa_release_tag:
+        description: 'GitHub Release tag that contains HomeDesignerSuite.ipa'
+        required: true
       app_version:
         description: 'App version (must match App Store Connect)'
         required: true
@@ -18,12 +21,20 @@ jobs:
 
     steps:
 
-    - name: Checkout repo
+    - name: Checkout repo (no LFS)
       run: |
         GIT_LFS_SKIP_SMUDGE=1 git clone --filter=blob:none \
           https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
-        git lfs install
-        git lfs pull --include="build/iOS/Packages/**"
+
+    - name: Download IPA from GitHub Release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        mkdir -p build/iOS/Packages
+        gh release download "${{ inputs.ipa_release_tag }}" \
+          --pattern "*.ipa" \
+          --dir build/iOS/Packages
+        ls -lah build/iOS/Packages/
 
     - name: Install iOS Distribution certificate
       run: |
@@ -61,7 +72,8 @@ jobs:
 
     - name: Re-sign IPA
       run: |
-        IPA_SRC="build/iOS/Packages/HomeDesignerSuite.ipa"
+        IPA_SRC=$(find build/iOS/Packages -name "*.ipa" | head -1)
+        echo "Signing: $IPA_SRC"
         WORK_DIR="ipa_work"
 
         # Extract IPA
