@@ -33,7 +33,8 @@ jobs:
         mkdir -p build/iOS/Packages
         gh release download "${{ inputs.ipa_release_tag }}" \
           --pattern "*.ipa" \
-          --dir build/iOS/Packages
+          --dir build/iOS/Packages \
+          --clobber
         ls -lah build/iOS/Packages/
 
     - name: Install iOS Distribution certificate
