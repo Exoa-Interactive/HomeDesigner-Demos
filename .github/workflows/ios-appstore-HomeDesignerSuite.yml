@@ -66,43 +66,6 @@ jobs:
         /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST"
         echo "Set version to ${{ inputs.app_version }} (build ${{ github.run_number }})"
 
-    - name: Configure per-target signing in Xcode project
-      env:
-        IOS_PROFILE_NAME: ${{ secrets.IOS_PROFILE_NAME }}
-      run: |
-        python3 - << 'PYEOF'
-        import os, re
-        pbxproj = "build/iOS/Unity-iPhone.xcodeproj/project.pbxproj"
-        profile = os.environ["IOS_PROFILE_NAME"]
-        with open(pbxproj) as f:
-            content = f.read()
-        # Match each XCBuildConfiguration block (one level of nested braces for buildSettings)
-        config_re = re.compile(
-            r'[A-Fa-f0-9]{24} /\*[^*]+\*/ = \{(?:[^{}]|\{[^{}]*\})*\};',
-            re.DOTALL)
-        def patch(m):
-            block = m.group(0)
-            if 'isa = XCBuildConfiguration;' not in block:
-                return block
-            if re.search(r'PRODUCT_NAME\s*=\s*"?Unity-iPhone"?;', block):
-                # Set or replace provisioning profile for the app target
-                if 'PROVISIONING_PROFILE_SPECIFIER' in block:
-                    block = re.sub(r'(PROVISIONING_PROFILE_SPECIFIER\s*=\s*)[^;]*;',
-                                   f'\\1"{profile}";', block)
-                else:
-                    block = re.sub(r'(PRODUCT_NAME\s*=\s*"?Unity-iPhone"?;)',
-                                   f'\\1\n\t\t\t\tPROVISIONING_PROFILE_SPECIFIER = "{profile}";', block)
-            elif re.search(r'PRODUCT_NAME\s*=\s*UnityFramework;', block):
-                # Clear profile for the framework target — frameworks don't support profiles
-                block = re.sub(r'PROVISIONING_PROFILE_SPECIFIER\s*=\s*[^;]*;',
-                               'PROVISIONING_PROFILE_SPECIFIER = "";', block)
-            return block
-        content = config_re.sub(patch, content)
-        with open(pbxproj, 'w') as f:
-            f.write(content)
-        print(f"Patched: Unity-iPhone profile='{profile}', UnityFramework profile=''")
-        PYEOF
-
     - name: Build Xcode archive
       run: |
         xcodebuild archive \
@@ -113,7 +76,8 @@ jobs:
           -destination "generic/platform=iOS" \
           CODE_SIGN_STYLE=Manual \
           DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }} \
-          CODE_SIGN_IDENTITY="Apple Distribution"
+          CODE_SIGN_IDENTITY="Apple Distribution" \
+          PROVISIONING_PROFILE_SPECIFIER_APP="${{ secrets.IOS_PROFILE_NAME }}"
 
     - name: Create ExportOptions.plist
       run: |
