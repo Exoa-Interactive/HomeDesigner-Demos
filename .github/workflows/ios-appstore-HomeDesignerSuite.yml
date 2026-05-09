@@ -61,7 +61,7 @@ jobs:
 
     - name: Patch Info.plist version
       run: |
-        PLIST="build/iOS/Unity-iPhone/Info.plist"
+        PLIST="build/iOS/Info.plist"
         /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${{ inputs.app_version }}" "$PLIST"
         /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST"
         echo "Set version to ${{ inputs.app_version }} (build ${{ github.run_number }})"
@@ -82,7 +82,7 @@ jobs:
     - name: Create ExportOptions.plist
       run: |
         BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" \
-          build/iOS/Unity-iPhone/Info.plist)
+          build/iOS/Info.plist)
         cat > ExportOptions.plist << EOF
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
