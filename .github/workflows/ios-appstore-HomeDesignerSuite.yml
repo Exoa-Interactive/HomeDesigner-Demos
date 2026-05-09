@@ -66,6 +66,26 @@ jobs:
         /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST"
         echo "Set version to ${{ inputs.app_version }} (build ${{ github.run_number }})"
 
+    - name: Patch usymtool path for macOS CI
+      run: |
+        chmod +x build/iOS/usymtool build/iOS/usymtoolarm64 2>/dev/null || true
+        PBXPROJ="build/iOS/Unity-iPhone.xcodeproj/project.pbxproj"
+        python3 - "$PBXPROJ" << 'PYEOF'
+        import sys
+        path = sys.argv[1]
+        with open(path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        old = r'--usymtool-path=\"C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Tools\\usymtool.exe\"'
+        new = r'--usymtool-path=\"$PROJECT_DIR/usymtoolarm64\"'
+        patched = content.replace(old, new)
+        if patched == content:
+            print("WARNING: usymtool path not found — no patch applied")
+        else:
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(patched)
+            print("Patched usymtool path to $PROJECT_DIR/usymtoolarm64")
+        PYEOF
+
     - name: Build Xcode archive
       run: |
         xcodebuild archive \
