@@ -18,7 +18,7 @@ jobs:
         git clone --filter=blob:none \
           https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
         git lfs install
-        git lfs pull
+        git lfs pull --include="build/HomeDesignerSuite.app/**"
 
     - name: Install certificate
       run: |
