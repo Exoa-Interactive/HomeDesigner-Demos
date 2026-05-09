@@ -1,0 +1,145 @@
+name: iOS Resign & Upload HomeDesignerSuite
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_version:
+        description: 'App version (must match App Store Connect)'
+        required: true
+        default: '1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: macos-latest
+    environment: HomeDesignerSuite
+
+    steps:
+
+    - name: Checkout repo
+      run: |
+        git clone --filter=blob:none \
+          https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git .
+        git lfs install
+        git lfs pull --include="build/iOS/Packages/**"
+
+    - name: Install iOS Distribution certificate
+      run: |
+        echo "${{ secrets.IOS_DISTRIBUTION_CERTIFICATE }}" | base64 --decode > ios_dist_cert.p12
+
+        security create-keychain -p actions build.keychain
+        security default-keychain -s build.keychain
+        security unlock-keychain -p actions build.keychain
+
+        security import ios_dist_cert.p12 \
+          -k build.keychain \
+          -P "${{ secrets.IOS_DISTRIBUTION_CERTIFICATE_PWD }}" \
+          -T /usr/bin/codesign
+
+        security set-key-partition-list -S apple-tool:,apple: \
+          -s -k actions build.keychain
+
+    - name: Verify signing identities
+      run: security find-identity -v -p codesigning
+
+    - name: Install iOS provisioning profile
+      run: |
+        echo "${{ secrets.IOS_PROVISIONING_PROFILE }}" | base64 --decode > ios_profile.mobileprovision
+        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+        PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" /dev/stdin <<< \
+          $(security cms -D -i ios_profile.mobileprovision))
+        cp ios_profile.mobileprovision \
+          ~/Library/MobileDevice/Provisioning\ Profiles/"$PROFILE_UUID".mobileprovision
+        echo "Installed profile UUID: $PROFILE_UUID"
+
+    - name: Setup API key
+      run: |
+        mkdir -p private_keys
+        echo "${{ secrets.APPLE_API_KEY }}" > private_keys/AuthKey_${{ secrets.APPLE_KEY_ID }}.p8
+
+    - name: Re-sign IPA
+      run: |
+        IPA_SRC="build/iOS/Packages/HomeDesignerSuite.ipa"
+        WORK_DIR="ipa_work"
+
+        # Extract IPA
+        mkdir -p "$WORK_DIR"
+        unzip -q "$IPA_SRC" -d "$WORK_DIR"
+
+        APP=$(find "$WORK_DIR/Payload" -maxdepth 1 -name "*.app" | head -1)
+        echo "App bundle: $APP"
+
+        # Patch version
+        /usr/libexec/PlistBuddy -c \
+          "Set :CFBundleShortVersionString ${{ inputs.app_version }}" "$APP/Info.plist"
+        /usr/libexec/PlistBuddy -c \
+          "Set :CFBundleVersion ${{ github.run_number }}" "$APP/Info.plist"
+        BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "$APP/Info.plist")
+        echo "Bundle ID:  $BUNDLE_ID"
+        echo "Version:    ${{ inputs.app_version }} (build ${{ github.run_number }})"
+
+        # Extract entitlements from provisioning profile
+        security cms -D -i ios_profile.mobileprovision > decoded_profile.plist
+        /usr/libexec/PlistBuddy -x -c "Print :Entitlements" decoded_profile.plist > entitlements.plist
+        echo "=== Entitlements ==="
+        cat entitlements.plist
+
+        # Embed new provisioning profile
+        cp ios_profile.mobileprovision "$APP/embedded.mobileprovision"
+
+        SIGN_ID="Apple Distribution: exoa interactive (${{ secrets.APPLE_TEAM_ID }})"
+
+        # Sign nested bundles and frameworks first (deepest first)
+        find "$APP" -depth -type d \( -name "*.framework" -o -name "*.appex" \) -exec \
+          codesign --force --timestamp \
+            --entitlements entitlements.plist \
+            --sign "$SIGN_ID" {} \;
+
+        # Sign dylibs and .so files
+        find "$APP" -type f \( -name "*.dylib" -o -name "*.so" \) -exec \
+          codesign --force --timestamp \
+            --sign "$SIGN_ID" {} \;
+
+        # Sign the main app bundle last
+        codesign --force --timestamp \
+          --entitlements entitlements.plist \
+          --sign "$SIGN_ID" \
+          "$APP"
+
+        # Verify
+        codesign --verify --deep --strict --verbose=2 "$APP"
+
+        # Repack as IPA
+        (cd "$WORK_DIR" && zip -qr "../resigned.ipa" Payload)
+        echo "=== IPA size ==="
+        du -sh resigned.ipa
+
+    - name: Validate with App Store
+      run: |
+        xcrun altool --validate-app \
+          --file resigned.ipa \
+          --type ios \
+          --apiKey ${{ secrets.APPLE_KEY_ID }} \
+          --apiIssuer ${{ secrets.APPLE_ISSUER_ID }}
+
+    - name: Upload to App Store Connect
+      run: |
+        xcrun altool --upload-app \
+          --file resigned.ipa \
+          --type ios \
+          --apiKey ${{ secrets.APPLE_KEY_ID }} \
+          --apiIssuer ${{ secrets.APPLE_ISSUER_ID }}
+
+    - name: Create GitHub Release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG="HomeDesignerSuite-ios-$(date +%Y%m%d)-run${{ github.run_number }}"
+        gh release create "$TAG" \
+          resigned.ipa \
+          --title "HomeDesignerSuite iOS IPA ($(date +%Y-%m-%d) #${{ github.run_number }})" \
+          --notes "Re-signed App Store IPA for HomeDesignerSuite iOS.
+
+        Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
