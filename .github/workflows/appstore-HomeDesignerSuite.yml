@@ -14,7 +14,7 @@ permissions:
 jobs:
   upload:
     runs-on: macos-latest
-    environment: HomeDesignerSuite
+    environment: HomeDesigner
 
     steps:
 
@@ -59,7 +59,7 @@ jobs:
 
     - name: Install provisioning profile
       run: |
-        echo "${{ secrets.PROVISIONING_PROFILE }}" | base64 --decode > profile.provisionprofile
+        echo "${{ secrets.MAC_PROVISIONING_PROFILE }}" | base64 --decode > profile.provisionprofile
         mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
         PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" /dev/stdin <<< \
           $(security cms -D -i profile.provisionprofile))

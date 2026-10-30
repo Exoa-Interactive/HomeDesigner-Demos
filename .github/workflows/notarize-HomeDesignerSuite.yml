@@ -9,7 +9,7 @@ permissions:
 jobs:
   notarize:
     runs-on: macos-latest
-    environment: HomeDesignerSuite
+    environment: HomeDesigner
 
     steps:
 

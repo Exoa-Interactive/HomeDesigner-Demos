@@ -17,7 +17,7 @@ permissions:
 jobs:
   upload:
     runs-on: macos-latest
-    environment: HomeDesignerSuite
+    environment: HomeDesigner
 
     steps:
 
